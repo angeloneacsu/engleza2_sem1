@@ -1,0 +1,308 @@
+
+.pag_left {
+    background-image: url("../images/Pg_56.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_57.jpg");
+    background-position: right top;
+}
+
+/*drag game*/
+.drag_container, .game_frame {
+    text-align: right;
+}
+.game_frame .gm_elem {
+    display:block;
+}
+.droppable_container {
+    position:relative;
+    background: url(../images/game/fundal.jpg) no-repeat top center;
+    height: 530px;
+    width:817px;
+    margin-bottom: 20px;
+    display: block;
+    margin:0 0 0 auto;
+}
+.el1 {
+    right: 74px;
+    top: 227px;
+}
+.el2 {
+    right: 75px;
+    top: 133px;
+}
+.el3 {
+    right: 57px;
+    top: 84px;
+}
+.el4 {
+    right: 635px;
+    top: 133px;
+}
+.el5 {
+    right: 607px;
+    top: 252px;
+}
+.ui-droppable {
+    position:absolute;
+    height: 40px;
+    width: 150px;
+    background: rgba(255,255,255,0.5);
+    border:2px solid #000;
+    border-radius: 10px;
+}
+.ui-droppable .err_block{
+
+    position:absolute;
+    height: 24px;
+    top:-24px;
+    right: -20px;
+    width: 20px;
+}
+.ui-droppable .err_block.c_true {
+    background: url(../images/ok.png) no-repeat center center ;   
+    width: 24px;
+    height: 24px;
+}
+.ui-droppable .err_block.c_false {
+    background: url(../images/bad.png) no-repeat center center ;        
+    width: 24px;
+    height: 24px;
+}
+.draggable_container {
+    height: 380px;
+    left: 0px;
+    position: absolute;
+    text-align: left;
+    top: 30px;
+    width: 250px;
+    padding-top:65px;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.draggable_container .ui-draggable  {
+
+    display:inline-block;
+
+    height: 52px;    
+    width: 163px;
+    cursor: move;
+
+}
+.draggable_container .ui-draggable  .name{
+    font-size: 20px;
+    line-height: 34px;
+
+    margin-bottom: 0px;
+    padding: 5px;
+    text-align: center;
+
+    margin:0 auto;
+}
+
+.ex9_box {
+    display: block;
+    height: 283px;
+    position: absolute;
+    right: 7px;
+    top: 79px;
+    width: 532px;
+}
+/* end drag*/
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p56_ex2_box_prezentare {
+    display: block;
+    height: 263px;
+    position: absolute;
+    right: 7px;
+    top: 374px;
+    width: 532px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p56_e2.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e2_img1 {
+    position:absolute;
+    left:625px;
+    top:300px;
+    height: 43px;
+    width:263px;      
+
+    background:url('../images/game/text3.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img2 {
+    position:absolute;
+    left:334px;
+    top:300px;
+    height: 43px;
+    width:263px;      
+
+    background:url('../images/game/text2.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img3 {
+    position:absolute;
+    left: 46px;
+    top:300px;
+    height: 43px;
+    width:263px;       
+
+    background:url('../images/game/text1.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex2_place1 {
+    position:absolute;
+    top:355px;
+    left:625px;
+}
+#ex2_place2 {
+    position:absolute;
+    left:334px;
+    top:355px;
+}
+#ex2_place3 {
+    left: 46px;
+    position: absolute;
+    top: 355px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+@media screen and (max-width: 115px) {
+    .ex4_box_frunza {
+        display: block;
+        height: 55px;
+        position: absolute;
+        right: 15px;
+        top: 30px;
+        width: 75px;
+    }
+    .ex6_box_asculta {
+        display:block;
+        position:absolute;
+        right:15px; 
+        top:265px;
+        width:75px; 
+        height: 100px;
+    }
+    .ex6 {
+        display: block;
+        height: 115px;
+        position: absolute;
+        right: 105px;
+        top: 290px;
+        width: 295px;
+    }
+
+
+    .game_frame .elements_data .img_element {
+        height: 68px;
+    }
+    .game_frame .elements_data .name {
+        color: #3698D3;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 24px;
+    }
+    .video10{
+        display:block;
+        position:absolute;
+        right:50px; 
+        top:90px;
+        width:280px;
+        height: 145px;
+    }
+}
+
+@media screen and (max-width: 1366px)  { 
+    .droppable_container {
+        position: relative;
+        background-position-x: 80%;
+        background-position-y: 50%;
+    }
+
+    .el4 {
+        right: 605px;
+        top: 111px;
+    }
+
+    .el5 {
+        right: 581px;
+        top: 212px;
+    }
+
+    .el3 {
+        right: 75px;
+        top: 66px;
+    }
+
+    .el2 {
+        right: 75px;
+        top: 125px;
+    }
+
+    .el1 {
+        right: 89px;
+        top: 194px;
+    }
+}
+
+@media screen and (max-width: 1115px) { 
+    #drag_and_drop .placeholder .droppable_container, #drag_and_drop2 .placeholder .droppable_container {
+    height: 402px;
+}
+    
+    
+    .droppable_container {
+        position: relative;
+        background-position-x: 80%;
+        background-position-y: 50%;
+        width: 190px;
+        padding-top: 12px;
+    }
+
+    .el4 {
+        right: 525px;
+        top: 50px;
+    }
+
+    .el5 {
+        right: 524px;
+        top: 243px;
+    }
+
+    .el3 {
+        right: 113px;
+        top: 41px;
+    }
+
+    .el2 {
+        right: 129px;
+        top: 128px;
+    }
+
+    .el1 {
+        right: 129px;
+        top: 207px;
+    }
+}

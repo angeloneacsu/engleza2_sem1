@@ -1,0 +1,219 @@
+
+.pag_left {
+    background-image: url("../images/Pg_54.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_55.jpg");
+    background-position: right top;
+}
+
+
+/*game click on corect css*/
+.p54_ex1_box_prezentare {
+    display: block;
+    height: 572px;
+    position: absolute;
+    right: 6px;
+    top: 45px;
+    width: 532px;
+}
+.game_frame .elements_data  {
+    margin-bottom:0px;
+}
+.game_frame .elements_data  {
+
+}
+.game_frame .elements_data .img_element{
+    height:120px;
+
+}
+.game_frame .elements_data .name {
+    font-size:22px;
+    line-height: 26px;
+    font-weight: bold;
+    color:#000000;
+}
+/*.game_frame .elements_data br {
+    display:none;
+}*/
+
+/*custom input game selectable*/
+.game_frame .checkbox-holder div:first-child{
+    margin-top:10px;
+}
+.game_frame .checkbox-holder div {
+    font-size: 20px;
+    height: 26px;
+    line-height: 26px;
+    color:#3698d3;
+    display:block;
+    text-align: center;
+    margin-top:5px;
+    border:1px solid transparent;
+}
+.game_frame .checkbox-holder div.checked {
+    border:1px solid #ad1283;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.game_frame .checkbox-holder div.c_false{
+    border-color:#CC0000;
+}
+.game_frame .checkbox-holder div.c_true{
+    border-color:#8FC800;
+}
+.ex3{
+    display: block;
+    height: 286px;
+    position: absolute;
+    right: 8px;
+    top: 102px;
+    width: 522px;
+}
+#multiple_choice_select.game_frame .gm_elem{
+    display:block;
+    line-height: 0px;
+    font-size:0px;
+}
+#multiple_choice_select.game_frame .gm_elem .elements_data{
+    width:33.3%;
+}
+#multiple_choice_select.game_frame .elements_data .img_element{
+    height: 110px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder {
+    /*position:absolute;*/
+    bottom:20px;
+    width:100%;
+    left:0px;
+    text-align: center;
+    font-size:0px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response {
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #000000;
+    display: inline-block;
+    font-size: 28px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    text-align: center;
+    width:50%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.checked {
+    color:#009ec3;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_false {
+    color:#cc0000;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_true {
+    color:#61c419;
+}
+.game_frame .elements_data.c_true,.game_frame .elements_data.c_false{
+    background: none;
+
+}
+
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p56_ex6_box_prezentare {
+    display: block;
+    height: 572px;
+    position: absolute;
+    right: 6px;
+    top: 45px;
+    width: 532px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p56_e6.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e6_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text1.png') no-repeat top center;
+    background-size: contain; 
+}
+#e6_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text2.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex6_place1 {
+    left: 175px;
+    position: absolute;
+    top: 110px;
+}
+#ex6_place2 {
+    left: 755px;
+    position: absolute;
+    top: 110px;
+}
+#ex6_place3 {
+    left: 386px;
+    position: absolute;
+    top: 296px;
+}
+#ex6_place4 {
+    left: 594px;
+    position: absolute;
+    top: 293px;
+}
+#ex6_place5 {
+    left: 484px;
+    position: absolute;
+    top: 413px;
+}
+#ex6_place6 {
+    left: 695px;
+    position: absolute;
+    top: 410px;
+}
+
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+
+@media screen and (max-width: 115px) {
+
+    .ex6_box_retine {
+        height: 50px;
+        right: 15px;
+        top: 250px;
+        width: 75px;
+    }
+    .ex1_box_ascultare {
+        height: 155px;
+        right: 35px;
+        top: 115px;
+        width: 270px;
+    }
+}

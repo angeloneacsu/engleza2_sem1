@@ -1,0 +1,369 @@
+#a_anim {
+    background-image: url("../images/a_anim.png");
+    height: 34px;
+    left: 6px;
+    position: absolute;
+    top: 13px;
+    width: 49px;
+}
+.small-a-holder, .p1t-holder, .big-a-holder, .p2t-holder {
+    display: inline-block;
+}
+.small-a-holder, .big-a-holder {
+    width: 125px;
+}
+.p1t-holder, .p2t-holder {
+    width: 250px;
+    margin-bottom: 5px;
+}
+.p1t-holder img, .p2t-holder img{
+    width:250px;
+    height:180px;
+}
+.p2t-holder {
+    margin-bottom: 27px;
+}
+
+.p1r1-holder {
+    margin-top: 5px;
+}
+.p1r2-texts{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p1r2-texts span {
+    text-align: center;
+    display: inline-block;
+    min-width: 40px;
+}
+.p1rhii21 {
+    margin-right: 41px;
+}
+.p1r22 {
+    margin-right: 41px;
+}
+.p1r23 {
+    margin-right: 40px;
+}
+.p1r24 {
+    margin-right: 41px;
+}
+.p2r1-holder {
+    margin-bottom: 9px;
+}
+
+.p2r2-holder {
+    margin-bottom: 19px;
+}
+.footer_text {
+    border-top: 1px solid #BBD03B;
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 9px;
+    max-width: 375px;
+    margin-top: 10px;
+    padding-top:5px;
+}
+.footer_important {
+    color: #FF0000;
+}
+
+
+.response{
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.pag_left {
+    background-image: url("../images/Pg_38.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_39.jpg");
+    background-position: right top;
+}
+
+.ex2_box_desparte {
+    display: block;
+    height: 100px;
+    position: absolute;
+    right: 25px;
+    top: 395px;
+    width: 490px;
+}
+.video38{
+    display:block;
+    position:absolute;
+    right:40px; 
+    top:155px;
+    width:370px;
+    height: 235px;
+}
+/*custom selectable*/
+.game_frame .elements_data .img_element {
+    height: 130px;
+    margin:20px 15px 10px;
+}
+.game_frame .elements_data.c_true , .game_frame .elements_data.c_false{
+    background-position: top right;
+}
+
+.game_frame .elements_data  {
+    text-align: center;
+    float:left;
+    width:33.33333%;
+}
+.game_frame .elements_data  .sunet{
+    display:inline-block;
+    vertical-align: middle;
+    background: url('../../../../assets/images/sound.jpg') no-repeat center center;
+    width:40px;
+    height:38px;
+    background-size: 40px 38px;
+
+}
+.game_frame .elements_data  .name_tag{
+    display:inline-block;
+    vertical-align: middle;
+    border:3px solid #fca321;
+    color:#000000;
+    height: 33px;
+    line-height: 33px;
+    font-size:22px;
+    text-align: center;
+}
+.number_hook {
+    display:block;
+    height: 80px;
+    width:80px;
+    font-size:50px;
+    line-height: 80px;
+    color:#ffffff;
+    color: #FFFFFF;
+    display: block;
+    font-size: 50px;
+    height: 85px;
+    line-height: 96px;
+    width: 104px;
+    text-align: center;
+    text-shadow: -3px 0 0 #ff7d03, 0 -1px 0 #ff7d03, 0 1px 0 #ff7d03, -1px 0 0 #ff7d03;
+}
+
+.dictionar {
+    display: block;
+    height: 73px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 523px;
+}
+
+#dictionar .gm_elem{
+    display:block;
+}
+
+.game_frame .gm_elem {
+    display: inline-block;
+}
+.ex2_vid {
+    bottom: 572px;
+    display: block;
+    height: 43px;
+    left: 42px;
+    position: absolute;
+    width: 327px;
+}
+.video_cta {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p38_ex2_box_prezentare {
+    display: block;
+    height: 502px;
+    position: absolute;
+    right: 5px;
+    top: 131px;
+    width: 534px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p38_e2.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e2_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/dance.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/bike.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img3 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/draw.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img4 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background:url('../images/game/sing.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex2_place1 {
+    left: 165px;
+    position: absolute;
+    top: 0;
+}
+#ex2_place2 {
+    left: 375px;
+    position: absolute;
+    top: 50px;
+}
+#ex2_place3 {
+    left: 355px;
+    position: absolute;
+    top: 390px;
+}
+#ex2_place4 {
+    left: 705px;
+    position: absolute;
+    top: 80px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p39_ex3_box_prezentare {
+    display: block;
+    height: 321px;
+    position: absolute;
+    right: 4px;
+    top: 85px;
+    width: 534px;
+}
+
+#static_ex1 .gm_elem{
+    display:block;
+}
+
+#static_ex1 .bk {
+    background:url('../images/game/p39_e3.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e3_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/sageata1.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/sageata2.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex3_place1 {
+       left: 162px;
+    position: absolute;
+    top: 270px;
+}
+#ex3_place2 {
+    left: 785px;
+    position: absolute;
+    top: 210px;
+}
+#ex3_place3 {
+   left: 455px;
+    position: absolute;
+    top: 6px;
+}
+/**********************************/
+/*end static default*/
+/**********************************/
+.ex8_vid{
+    bottom: 551px;
+    display: block;
+    height: 51px;
+    left: 47px;
+    position: absolute;
+    width: 129px;
+}
+.karaoke_block {
+    width:263px;
+    height:446px;
+    position:absolute;
+    right:10px;
+    top:25px;
+
+    background: url("../images/game/k.png") no-repeat  right top;
+    background-size:contain;
+}
+@media screen and (max-width: 115px) {
+
+    .ex2_box_desparte {
+        height: 70px;
+        right: 20px;
+        top: 305px;
+        width: 385px;
+    }
+    .video38{
+        display:block;
+        position:absolute;
+        right:50px; 
+        top:120px;
+        width:270px;
+        height: 180px;
+    }
+}

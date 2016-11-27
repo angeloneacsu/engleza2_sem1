@@ -1,0 +1,456 @@
+#a_anim {
+    background-image: url("../images/a_anim.png");
+    height: 34px;
+    left: 6px;
+    position: absolute;
+    top: 13px;
+    width: 49px;
+}
+.small-a-holder, .p1t-holder, .big-a-holder, .p2t-holder {
+    display: inline-block;
+}
+.small-a-holder, .big-a-holder {
+    width: 125px;
+}
+.p1t-holder, .p2t-holder {
+    width: 250px;
+    margin-bottom: 5px;
+}
+.p1t-holder img, .p2t-holder img{
+    width:250px;
+    height:180px;
+}
+.p2t-holder {
+    margin-bottom: 27px;
+}
+
+.p1r1-holder {
+    margin-top: 5px;
+}
+.p1r2-texts{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p1r2-texts span {
+    text-align: center;
+    display: inline-block;
+    min-width: 40px;
+}
+.p1r21 {
+    margin-right: 41px;
+}
+.p1r22 {
+    margin-right: 41px;
+}
+.p1r23 {
+    margin-right: 40px;
+}
+.p1r24 {
+    margin-right: 41px;
+}
+.p2r1-holder {
+    margin-bottom: 9px;
+}
+
+.p2r2-holder {
+    margin-bottom: 19px;
+}
+.footer_text {
+    border-top: 1px solid #BBD03B;
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 9px;
+    max-width: 375px;
+    margin-top: 10px;
+    padding-top:5px;
+}
+.footer_important {
+    color: #FF0000;
+}
+
+
+
+.pag_left {
+    background-image: url("../images/Pg_12.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_13.jpg");
+    background-position: right top;
+}
+
+.ex2_box_prezentare {
+    display: block;
+    height: 507px;
+    position: absolute;
+    right: 0;
+    top: 126px;
+    width: 550px;
+}
+.ex4_box_arbore {
+    display: block;
+    height: 65px;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    width: 100px;
+}
+.ex5_box_retine {
+    display: block;
+    height: 25px;
+    position: absolute;
+    right: 150px;
+    top: 285px;
+    width: 275px;
+}
+
+/*custom input game selectable*/
+.game_frame .checkbox-holder div:first-child{
+    margin-top:10px;
+}
+.game_frame .checkbox-holder div {
+    font-size: 20px;
+    height: 26px;
+    line-height: 26px;
+    color:#3698d3;
+    display:block;
+    text-align: center;
+    margin-top:5px;
+    border:1px solid transparent;
+}
+.game_frame .checkbox-holder div.checked {
+    border:1px solid #F8B500;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.game_frame .checkbox-holder div.c_false{
+    border-color:#CC0000;
+}
+.game_frame .checkbox-holder div.c_true{
+    border-color:#8FC800;
+}
+#static_ex .placeholder {
+    padding:0px;
+}
+#static_ex .gm_elem {
+    display:block;
+}
+.clicl_elem  {
+    cursor:pointer;
+}
+.number_hook {
+    display:block;
+    height: 80px;
+    width:80px;
+    font-size:50px;
+    line-height: 80px;
+    color:#ffffff;
+    color: #FFFFFF;
+    display: block;
+    font-size: 50px;
+    height: 85px;
+    line-height: 96px;
+    width: 104px;
+    text-align: center;
+    text-shadow: -3px 0 0 #ff7d03, 0 -1px 0 #ff7d03, 0 1px 0 #ff7d03, -1px 0 0 #ff7d03;
+}
+.bk {
+    background:url('../images/game/img1.png') no-repeat center center;
+    height: 530px;
+    width:100%;
+    background-size: cover;
+}
+.img1 {
+
+
+    height: 306px;
+    left: 142px;
+    position: absolute;
+    top: 163px;
+    width: 247px;      
+
+}
+.img1 .item_ch{
+
+    width: 247px; 
+    height:306px;    
+    background:url('../images/game/img1_ex1.png') no-repeat center center;
+    background-size: contain;
+}
+.img2 {
+
+    height: 306px;
+    left: 300px;
+    position: absolute;
+    top: 45px;
+    width: 202px;         
+}
+.img2 .item_ch{
+    background:blue;
+    width:242px;
+    height:306px;
+
+}
+.img3 {
+
+    height: 245px;
+    left: 489px;
+    position: absolute;
+    top: 61px;
+    width: 172px;          
+}
+.img3 .item_ch{
+    background:red;
+    width:242px;
+    height:306px;
+
+}
+.img4 {
+
+    height: 343px;
+    position: absolute;
+    right: 194px;
+    top: 140px;
+    width: 163px;         
+}
+.img4 .item_ch{
+    background:red;
+    width:242px;
+    height:306px;
+
+}
+.item_ch {
+    display:none;
+}
+
+/*drop*/
+
+/*drag game*/
+.drag_container, .game_frame {
+    text-align: right
+}
+.game_frame .gm_elem {
+    display:block;
+}
+.droppable_container {
+    position:relative;
+    background: url(../images/game/joc.png) no-repeat top right;
+    height: 530px;
+    width:705px;
+    margin-bottom: 20px;
+    display: block;
+    margin:0 auto;
+}
+.el1 {
+    right: 65px;
+    top: 445px; 
+}
+.el2 {
+    right: 568px;
+    top: 429px;
+}
+.el3 {
+    right: -66px;
+    top: 273px;
+}
+.el4 {
+    right: 104px;
+    top: 14px;
+}
+.ui-droppable {
+    position:absolute;
+    height: 52px;
+    width: 163px;
+    background: rgba(255,255,255,0.5);
+    border:2px solid #000;
+}
+.ui-droppable .err_block{
+
+    position:absolute;
+    height: 24px;
+    top:-24px;
+    right: -20px;
+    width: 20px;
+}
+.ui-droppable .err_block.c_true {
+    background: url(../images/ok.png) no-repeat center center ;   
+    width: 24px;
+    height: 24px;
+}
+.ui-droppable .err_block.c_false {
+    background: url(../images/bad.png) no-repeat center center ;        
+    width: 24px;
+    height: 24px;
+}
+.draggable_container {
+    height: 248px;
+    left: 289px;
+    position: absolute;
+    text-align: left;
+    top: 139px;
+    width: 335px;
+    padding-top:20px;
+}
+.draggable_container .ui-draggable  {
+
+    display:block;
+    margin:0 auto;
+    height: 52px;    
+    width: 163px;
+    cursor: move;
+
+}
+.draggable_container .ui-draggable  .name{
+    font-size: 26px;
+    line-height: 50px;
+
+    margin-bottom: 0px;
+    padding: 5px;
+    text-align: center;
+
+    margin:0 auto;
+}
+
+.ex9_box {
+    bottom: 282px;
+    display: block;
+    height: 339px;
+    position: absolute;
+    right: 5px;
+    width: 534px;
+}
+.ex2_vid {
+    bottom: 591px;
+    display: block;
+    height: 40px;
+    left: 42px;
+    position: absolute;
+    width: 149px;
+}
+.video_cta {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.ex2_vid{
+    bottom: 603px;
+    display: block;
+    height: 51px;
+    left: 217px;
+    position: absolute;
+    width: 129px;
+}
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p14_ex1_box_prezentare {
+    display: block;
+    height: 43px;
+    left: 22px;
+    position: absolute;
+    top: 61px;
+    width: 176px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/pg12_13.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e3_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/pg12_13.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+
+
+#ex3_place1 {
+    left: 213px;
+    position: absolute;
+    top: 6px;
+}
+#ex3_place2 {
+    left: 450px;
+    position: absolute;
+    top: 6px;;
+}
+#ex3_place3 {
+    left: 691px;
+    position: absolute;
+    top: 6px;;
+}
+#ex3_place4 {
+    left: 930px;
+    position: absolute;
+    top: 6px;;
+}
+#ex3_place5 {
+   left: 214px;
+    position: absolute;
+    top: 246px;
+}
+#ex3_place6 {
+    left: 451px;
+    position: absolute;
+     top: 246px;
+}
+#ex3_place7 {
+    left: 695px;
+    position: absolute;
+     top: 246px;
+}
+#ex3_place8 {
+    left: 930px;
+    position: absolute;
+     top: 246px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+@media screen and (max-width: 115px) {
+
+    .ex2_box_prezentare {
+        height: 210px;
+        right: 23px;
+        top: 255px;
+        width: 385px;
+    }
+    .ex6 {
+        display: block;
+        height: 117px;
+        position: absolute;
+        right: 129px;
+        top: 289px;
+        width: 286px;
+    }
+    .ex4_box_arbore {
+        height: 40px;
+        right: 15px;
+        top: 25px;
+        width: 75px;
+    }
+    .ex5_box_retine {
+        height: 18px;
+        right: 110px;
+        top: 220px;
+        width: 275px;
+    }
+}
+
+

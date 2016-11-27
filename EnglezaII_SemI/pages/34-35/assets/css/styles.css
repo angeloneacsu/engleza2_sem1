@@ -1,0 +1,548 @@
+#a_anim {
+    background-image: url("../images/a_anim.png");
+    height: 34px;
+    left: 6px;
+    position: absolute;
+    top: 13px;
+    width: 49px;
+}
+.small-a-holder, .p1t-holder, .big-a-holder, .p2t-holder {
+    display: inline-block;
+}
+.small-a-holder, .big-a-holder {
+    width: 125px;
+}
+.p1t-holder, .p2t-holder {
+    width: 250px;
+    margin-bottom: 5px;
+}
+.p1t-holder img, .p2t-holder img{
+    width:250px;
+    height:180px;
+}
+.p2t-holder {
+    margin-bottom: 27px;
+}
+
+.p1r1-holder {
+    margin-top: 5px;
+}
+.p1r2-texts{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p1r2-texts span {
+    text-align: center;
+    display: inline-block;
+    min-width: 40px;
+}
+.p1r21 {
+    margin-right: 41px;
+}
+.p1r22 {
+    margin-right: 41px;
+}
+.p1r23 {
+    margin-right: 40px;
+}
+.p1r24 {
+    margin-right: 41px;
+}
+.p2r1-holder {
+    margin-bottom: 9px;
+}
+
+.p2r2-holder {
+    margin-bottom: 19px;
+}
+.footer_text {
+    border-top: 1px solid #BBD03B;
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 9px;
+    max-width: 375px;
+    margin-top: 10px;
+    padding-top:5px;
+}
+.footer_important {
+    color: #FF0000;
+}
+
+
+.response{
+    color: #000;
+}
+.pag_left {
+    background-image: url("../images/Pg_34.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_35.jpg");
+    background-position: right top;
+}
+.ex2_box_desparte {
+    display: block;
+    height: 105px;
+    position: absolute;
+    right: 25px;
+    top: 390px;
+    width: 490px;
+}
+.ex6_box_pronunta {
+    display: block;
+    height: 118px;
+    position: absolute;
+    right:20px;
+    top: 222px;
+    width: 100px;
+}
+.ex9_box_cantati {
+    display: block;
+    height: 45px;
+    position: absolute;
+    right: 20px;
+    top: 470px;
+    width: 100px;
+}
+.video34{
+    display:block;
+    position:absolute;
+    right:40px; 
+    top:155px;
+    width:370px;
+    height: 220px;
+}
+
+
+
+/*css input game*/
+
+/*start custom css element placement*/
+#correct_order_select.game_frame .gm_elem {
+    display:block;
+
+}
+#correct_order_select.game_frame .elements_data {
+    display:block;
+    text-align: left;
+    margin:50px 0;
+}
+#correct_order_select.game_frame .elements_data br{
+    display:none
+} 
+#correct_order_select.game_frame .elements_data .name{
+    display:inline-block;
+    padding-right:25px;
+    font-size:40px;
+    line-height: 40px;
+    color:rgb(41,91,180);
+    min-width:200px;
+}
+#correct_order_select.game_frame .container {
+    padding:0px 0;
+    background: url("../images/game/fundal.jpg") no-repeat 50% center;
+    height: 530px;
+}
+.error.c_true,.error.c_false {
+    right:-30px;
+}
+.ex2 {
+    display: block;
+    height: 573px;
+    position: absolute;
+    right: 4px;
+    top: 62px;
+    width: 534px;
+}
+
+
+.element1 .checkbox-holder {
+    position: absolute;
+    top: 174px;
+    left: 660px;
+}
+
+.element2 .checkbox-holder {
+    position: absolute;
+    top: 245px;
+    left: 361px;
+}
+
+.element3 .checkbox-holder {
+    position: absolute;
+    top: 208px;
+    left: 472px;
+}
+
+.element4 .checkbox-holder {
+    position: absolute;
+    top: -23px;
+    left: 280px;
+}
+
+.element1  .error.c_true, .element1  .error.c_false {
+    top: 139px;
+    left: 677px;
+}
+
+.element2  .error.c_true, .element2  .error.c_false {
+    top: 214px;
+    left: 379px;
+}
+
+.element3  .error.c_true, .element3  .error.c_false {
+    top: 178px;
+    left: 489px;
+}
+
+.element4  .error.c_true, .element4  .error.c_false {
+    top: -55px;
+    left: 300px;
+}
+
+/*end*/
+
+input.response{
+
+    /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+
+    border-radius: 50%;
+    text-align:center;
+    font-size:26px;
+    line-height: 30px;
+    width:30px;
+    padding:3px;    
+    height: 30px;
+    margin:0 auto;
+    font-weight: normal;
+    border:0px solid #000000;
+
+    -webkit-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;}
+input.response.c_true {
+    color:#8FC800;
+}
+
+input.response.c_false {
+    color:#CC0000;
+}
+
+.game_frame .elements_data {
+    position:relative;
+    margin-bottom:30px;
+}
+
+/*.game_frame .elements_data .checkbox-holder{
+    position:absolute;
+    bottom:5px;
+    left:5px;
+}*/
+.game_frame .elements_data.c_true,.game_frame .elements_data.c_false{
+    background: none;
+
+}
+
+.game_frame .elements_data .sunet {
+	display: inline-block;
+	vertical-align: middle;
+	background: url('../../../../assets/images/sound.jpg') no-repeat center center;
+	width: 40px;
+	height: 38px;
+	background-size: 40px 38px;
+	cursor: pointer;
+	margin-top: -4px;
+}
+
+.audio_element1 {
+	display:block;
+	position: absolute;
+	left: 375px;
+	top: 8px;
+}
+
+.audio_element2 {
+	display:block;
+	position: absolute;
+	top: -64px;
+	left: 610px;
+}
+
+.error {
+	display: none;
+}
+
+/*css input game end*/
+
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p35_ex2_box_prezentare {
+    display: block;
+    height: 377px;
+    position: absolute;
+    right: 4px;
+    top: 44px;
+    width: 534px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p35_e2.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e2_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text1.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text2.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img3 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text3.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex2_place1 {
+    left: 8px;
+    position: absolute;
+    top: 250px;
+}
+#ex2_place2 {
+    left: 356px;
+    position: absolute;
+    top: 55px;
+}
+#ex2_place3 {
+    left: 865px;
+    position: absolute;
+    top: 260px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p35_ex3_box_prezentare {
+     display: block;
+    height: 207px;
+    position: absolute;
+    right: 4px;
+    top: 430px;
+    width: 534px;
+}
+
+#static_ex1 .gm_elem{
+    display:block;
+}
+
+#static_ex1 .bk {
+    background:url('../images/game/p35_e3.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e3_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/om.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/om.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img3 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/om.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img4 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/om.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img5 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/om.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img6 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/om.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex3_place1 {
+    position:absolute;
+    top:0px;
+    left:75px;
+}
+#ex3_place2 {
+    position:absolute;
+    top:0px;
+    left:75px;
+}
+#ex3_place3 {
+    position:absolute;
+    top:0px;
+    left:75px;
+}
+#ex3_place4 {
+    position:absolute;
+    top:0px;
+    left:75px;
+}
+#ex3_place5 {
+    position:absolute;
+    top:0px;
+    left:75px;
+}
+#ex3_place6 {
+    position:absolute;
+    top:0px;
+    left:75px;
+}
+
+.audio1 {
+	display:black;
+	position: absolute;
+	top: 260px;
+	left: 140px;
+	z-index: 99;
+}
+
+.audio2 {
+	display:black;
+	position: absolute;
+	top: 390px;
+	left: 160px;
+	z-index: 99;
+}
+
+.audio3 {
+	display:black;
+	position: absolute;
+	top: 180px;
+	left: 750px;
+	z-index: 99;
+}
+
+.audio4 {
+	display:black;
+	position: absolute;
+	top: 310px;
+	left: 776px;
+	z-index: 99;
+}
+
+.audio5 {
+	display:black;
+	position: absolute;
+	top: 425px;
+	left: 752px;
+	z-index: 99;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+
+@media screen and (max-width: 115px) {
+    .ex2_box_desparte {
+        height: 77px;
+        right: 25px;
+        top: 300px;
+        width: 385px;
+    }
+    .ex6_box_pronunta {
+        height: 83px;
+        right:15px;
+        top: 172px;
+        width: 76px;
+    }
+    .ex9_box_cantati {
+        height: 33px;
+        right: 15px;
+        top: 363px;
+        width: 76px;
+    }
+    .video34{
+        display:block;
+        position:absolute;
+        right:30px; 
+        top:120px;
+        width:295px;
+        height: 175px;
+    }
+
+}

@@ -1,0 +1,386 @@
+
+.pag_left {
+    background-image: url("../images/Pg_16.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_17.jpg");
+    background-position: right top;
+}
+/*game click on corect css*/
+
+
+.game_frame .elements_data  {
+    margin-bottom:0px;
+}
+.game_frame .elements_data  {
+
+}
+.game_frame .elements_data .img_element{
+    height:120px;
+
+}
+.game_frame .elements_data .name {
+    font-size:26px;
+    line-height: 28px;
+    font-weight: bold;
+    color:#3698d3;
+}
+/*.game_frame .elements_data br {
+    display:none;
+}*/
+
+/*custom input game selectable*/
+.game_frame .checkbox-holder div:first-child{
+    margin-top:10px;
+}
+.game_frame .checkbox-holder div {
+    font-size: 20px;
+    height: 26px;
+    line-height: 26px;
+    color:#3698d3;
+    display:block;
+    text-align: center;
+    margin-top:5px;
+    border:1px solid transparent;
+}
+.game_frame .checkbox-holder div.checked {
+    border:1px solid #ad1283;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.game_frame .checkbox-holder div.c_false{
+    border-color:#CC0000;
+}
+.game_frame .checkbox-holder div.c_true{
+    border-color:#8FC800;
+}
+.ex3{
+
+    display: block;
+    height: 235px;
+    position: absolute;
+    right: 3px;
+    top: 402px;
+    width: 536px;
+}
+#multiple_choice_select.game_frame .gm_elem{
+    display:block;
+    line-height: 0px;
+    font-size:0px;
+}
+#multiple_choice_select.game_frame .gm_elem .elements_data{
+    width:25%;
+}
+#multiple_choice_select.game_frame .elements_data .img_element{
+    height: 360px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder {
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    left:0px;
+    text-align: center;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response {
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #000000;
+    display: block;
+    font-size: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+    text-align: center;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.checked {
+    color:#009ec3;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_false {
+    color:#cc0000;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_true {
+    color:#61c419;
+}
+.game_frame .elements_data.c_true,.game_frame .elements_data.c_false{
+    background: none;
+
+}
+/*start static*/
+.p16_ex1_box_prezentare {
+    display: block;
+    height: 563px;
+    position: absolute;
+    right: 3px;
+    top: 72px;
+    width: 538px;
+}
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p16_ex1.jpg') no-repeat center center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e1_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background:url('../images/game/p16_ex1_r1.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background:url('../images/game/p16_ex1_r2.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img3 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background:url('../images/game/p16_ex1_r3.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img4 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background:url('../images/game/p16_ex1_r4.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img5 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background:url('../images/game/p16_ex1_r5.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img6 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background:url('../images/game/p16_ex1_r6.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img7 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background:url('../images/game/p16_ex1_r7.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img8 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background:url('../images/game/p16_ex1_r8.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+.sound1
+{
+    left: 720px;
+    position: absolute;
+    top: 25px;
+}
+.sound2
+{
+    left: 568px;
+    position: absolute;
+    top: 156px;
+}
+.sound3
+{
+    left: 671px;
+    position: absolute;
+    top: 214px;
+}
+.sound4
+{
+    left: 262px;
+    position: absolute;
+    top: 207px;
+}
+.sound5
+{
+    left: 520px;
+    position: absolute;
+    top: 449px;
+}
+.sound6
+{
+    left: 235px;
+    position: absolute;
+    top: 366px;
+}
+.sound7
+{
+    left: 389px;
+    position: absolute;
+    top: 403px;
+}
+.sound8
+{
+    left: 264px;
+    position: absolute;
+    top: 472px;
+}
+.points1
+{
+    left: 390px;
+    position: absolute;
+    top: 420px;
+    background: #ffffff;
+}
+.points2
+{
+    left: 255px;
+    position: absolute;
+    top: 445px;
+    background: #ffffff;
+}
+.points3
+{
+    left: 370px;
+    position: absolute;
+    top: 480px;
+    background: #ffffff;
+}
+.points4
+{
+    left: 525px;
+    position: absolute;
+    top: 395px;
+    background: #ffffff;
+}
+.clicl_elem {
+    cursor: pointer;
+}
+/*end static*/
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p17_ex2_box_prezentare {
+    display: block;
+    height: 342px;
+    position: absolute;
+    right: 4px;
+    top: 50px;
+    width: 536px;
+}
+
+#static_ex1 .gm_elem{
+    display:block;
+}
+
+#static_ex1 .bk {
+    background:url('../images/game/p17_ex2.jpg') no-repeat top center;
+    height: 515px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e2_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 515px;
+    width:100%;
+    background:url('../images/game/kitchen.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 515px;
+    width:100%;      
+    background:url('../images/game/garden.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img3 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 515px;
+    width:100%;      
+    background:url('../images/game/bedroom.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img4 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 515px;
+    width:100%;      
+    background:url('../images/game/bathroom.png') no-repeat top center;
+    background-size: contain; 
+}
+#e2_img5 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 515px;
+    width:100%;      
+    background:url('../images/game/living-room.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex2_place1 {
+    left: 126px;
+    position: absolute;
+    top: 21px;
+}
+#ex2_place2 {
+    left: 476px;
+    position: absolute;
+    top: 21px;
+}
+#ex2_place3 {
+    left: -4px;
+    position: absolute;
+    top: 281px;
+}
+#ex2_place4 {
+    left: 306px;
+    position: absolute;
+    top: 281px;
+}
+#ex2_place5 {
+    left: 586px;
+    position: absolute;
+    top: 271px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+/*end click on corect css*/
+
+@media screen and (max-width: 115px) {
+
+}

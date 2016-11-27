@@ -1,0 +1,383 @@
+
+
+
+input.response{
+
+    /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+
+    color:#3698D3;
+    text-align:center;
+    font-size:18px;
+    line-height: 20px;
+    width:30px;
+    padding:3px;    
+    height: 20px;
+    margin:0 auto;
+    font-weight: normal;
+    border:3px solid #49b82d;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+input.response.c_true {
+    color:#8FC800;
+}
+input.response.c_false {
+    color:#CC0000;
+}
+.pag_left {
+    background-image: url("../images/Pg_18.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_19.jpg");
+    background-position: right top;
+}
+
+
+.ex2_box_personaje {
+    display: block;
+    height: 120px;
+    position: absolute;
+    right: 30px;
+    top: 330px;
+    width: 490px;
+}
+.ex4 {
+    display: block;
+    height: 183px;
+    position: absolute;
+    right: 145px;
+    top: 27px;
+    width: 376px;
+}
+.ex5_box_ghici {
+    display: block;
+    height: 190px;
+    position: absolute;
+    right: 20px;
+    top: 170px;
+    width: 100px;
+}
+.ex6_box_asculta {
+    display: block;
+    height: 65px;
+    position: absolute;
+    right: 130px;
+    top: 428px;
+    width: 372px;
+}
+/*custom selectable*/
+.game_frame .elements_data .img_element {
+    height: 130px;
+    margin:20px 15px 10px;
+}
+.game_frame .elements_data.c_true , .game_frame .elements_data.c_false{
+    background-position: top right;
+}
+
+.game_frame .elements_data  {
+    text-align: center;
+    float:left;
+    width:33.33333%;
+}
+.game_frame .elements_data  .sunet{
+    display:inline-block;
+    vertical-align: middle;
+    background: url('../../../../assets/images/sound.jpg') no-repeat center center;
+    width:40px;
+    height:38px;
+    background-size: 40px 38px;
+
+}
+.game_frame .elements_data  .name_tag{
+    display:inline-block;
+    vertical-align: middle;
+    border:3px solid #fca321;
+    color:#000000;
+    height: 33px;
+    line-height: 33px;
+    font-size:22px;
+    text-align: center;
+}
+
+.dictionar {
+    display: block;
+    height: 73px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 710px;
+}
+
+#dictionar .gm_elem{
+    display:block;
+}
+
+.game_frame .gm_elem {
+    display: inline-block;
+}
+
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p18_ex1_box_prezentare {
+    display: block;
+    height: 271px;
+    position: absolute;
+    right: 6px;
+    top: 113px;
+    width: 536px;
+}
+.p18_ex2_box_prezentare {
+    display: block;
+    height: 244px;
+    position: absolute;
+    right: 6px;
+    top: 394px;
+    width: 536px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+#static_ex1 .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p18_e1.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#static_ex1 .bk {
+    background:url('../images/game/p18_ex2.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e1_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/p18_e1_r1.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/p18_e1_r2.png') no-repeat top center;
+    background-size: contain; 
+}
+
+#ex1_place9{
+    left: 452px;
+    position: absolute;
+    top: 8px;  
+}
+#ex1_place8{
+    left: 595px;
+    position: absolute;
+    top: 44px;   
+}
+#ex1_place7{             
+    left: 325px;
+    position: absolute;
+    top: 44px; 
+}
+#ex1_place6{
+    left: 405px;
+    position: absolute;
+    top: 450px;  
+}
+#ex1_place5{
+    left: 405px;
+    position: absolute;
+    top: 450px;   
+}
+#ex1_place4{
+    left: 805px;
+    position: absolute;
+    top: 450px;
+}
+#ex1_place3{
+    left: 245px;
+    position: absolute;
+    top: 260px;
+}
+
+#ex1_place1 {
+    left: 694px;
+    position: absolute;
+    top: 229px;
+}
+#ex1_place2 {
+    left: 210px;
+    position: absolute;
+    top: 490px;
+}
+.ex2_vid_pm{
+    display: block;
+    height: 51px;
+    left: 37px;
+    position: absolute;
+    top: 74px;
+    width: 129px;
+}
+/**********************************/
+/*end static default*/
+/**********************************/
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p19_ex3_box_prezentare {
+    display: block;
+    height: 303px;
+    position: absolute;
+    right: 3px;
+    top: 86px;
+    width: 530px;
+}
+
+#static_ex2 .gm_elem{
+    display:block;
+}
+
+#static_ex2 .bk {
+    background:url('../images/game/p19_e3.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e3_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/linie1.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/linie2.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img3 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/linie3.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img4 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/linie4.png') no-repeat top center;
+    background-size: contain; 
+}
+
+#ex3_place5{
+     left: 459px;
+    position: absolute;
+    top: 18px;
+}
+#ex3_place1 {
+    left: 177px;
+    position: absolute;
+    top: 409px;
+}
+#ex3_place2 {
+    left: 430px;
+    position: absolute;
+    top: 409px;
+}
+#ex3_place3 {
+    left: 640px;
+    position: absolute;
+    top: 409px;
+}
+#ex3_place4 {
+    left: 850px;
+    position: absolute;
+    top: 409px;
+}
+/**********************************/
+/*end static default*/
+/**********************************/
+.ex2_vid{
+    bottom: 550px;
+    display: block;
+    height: 51px;
+    left: 34px;
+    position: absolute;
+    width: 129px;
+}
+
+.karaoke_block {
+    width:263px;
+    height:446px;
+    position:absolute;
+    right:10px;
+    top:25px;
+
+    background: url("../images/game/karaoke.png") no-repeat  right top;
+    background-size:contain;
+}
+@media screen and (max-width: 115px) {
+    .game_frame .elements_data .img_element {
+        height: 180px;
+    }
+
+    .ex2_box_personaje {
+        height: 92px;
+        right: 30px;
+        top: 254px;
+        width: 380px;
+    }
+    .ex4 {
+        display: block;
+        height: 146px;
+        position: absolute;
+        right: 105px;
+        top: 24px;
+        width: 291px;
+    }
+    .ex5_box_ghici {
+        height: 140px;
+        right: 15px;
+        top: 132px;
+        width: 75px;
+    }
+    .ex6_box_asculta {
+        height: 45px;
+        right: 100px;
+        top: 332px;
+        width: 290px;
+    }
+
+}

@@ -1,0 +1,357 @@
+#a_anim {
+    background-image: url("../images/a_anim.png");
+    height: 34px;
+    left: 6px;
+    position: absolute;
+    top: 13px;
+    width: 49px;
+}
+.small-a-holder, .p1t-holder, .big-a-holder, .p2t-holder {
+    display: inline-block;
+}
+.small-a-holder, .big-a-holder {
+    width: 125px;
+}
+.p1t-holder, .p2t-holder {
+    width: 250px;
+    margin-bottom: 5px;
+}
+.p1t-holder img, .p2t-holder img{
+    width:250px;
+    height:180px;
+}
+.p2t-holder {
+    margin-bottom: 27px;
+}
+
+.p1r1-holder {
+    margin-top: 5px;
+}
+.p1r2-texts{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p1r2-texts span {
+    text-align: center;
+    display: inline-block;
+    min-width: 40px;
+}
+.p1r21 {
+    margin-right: 41px;
+}
+.p1r22 {
+    margin-right: 41px;
+}
+.p1r23 {
+    margin-right: 40px;
+}
+.p1r24 {
+    margin-right: 41px;
+}
+.p2r1-holder {
+    margin-bottom: 9px;
+}
+
+.p2r2-holder {
+    margin-bottom: 19px;
+}
+.footer_text {
+    border-top: 1px solid #BBD03B;
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 9px;
+    max-width: 375px;
+    margin-top: 10px;
+    padding-top:5px;
+}
+.footer_important {
+    color: #FF0000;
+}
+
+
+.response{
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.pag_left {
+    background-image: url("../images/Pg_46.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_47.jpg");
+    background-position: right top;
+}
+
+.ex2_box_ascultare {
+    display: block;
+    height: 145px;
+    position: absolute;
+    right: 20px;
+    top: 175px;
+    width: 100px;
+}
+.ex1_box_ascultare {
+    display: block;
+    height:210px;
+    position: absolute;
+    right: 35px;
+    top:150px;
+    width: 330px;
+}
+
+
+/*drag game*/
+.drag_container, .game_frame {
+    text-align: right
+}
+.game_frame .gm_elem {
+    display:block;
+}
+.droppable_container {
+    position:relative;
+    background: url(../images/game/p47_e3.jpg) no-repeat top center;
+    height: 530px;
+    width:100%;
+    margin-bottom: 20px;
+    display: block;
+    margin:0 0 0 auto;
+    background-size: contain;
+}
+.el1 {
+    right: 598px;
+    top: 153px;
+}
+.el2 {
+    right: 384px;
+    top: 226px;
+}
+.el3 {
+    right: 660px;
+    top: 325px;
+}
+.el4 {
+    right: 410px;
+    top: 383px;
+}
+.el5 {
+    right: 697px;
+    top: 470px;
+}
+.ui-droppable {
+    position:absolute;
+    height: 40px;
+    width: 150px;
+    background: rgba(255,255,255,0.5);
+    border:2px solid #000;
+    border-radius: 10px;
+}
+.ui-droppable .err_block{
+
+    position:absolute;
+    height: 24px;
+    top:-24px;
+    right: -20px;
+    width: 20px;
+}
+.ui-droppable .err_block.c_true {
+    background: url(../images/ok.png) no-repeat center center ;   
+    width: 24px;
+    height: 24px;
+}
+.ui-droppable .err_block.c_false {
+    background: url(../images/bad.png) no-repeat center center ;        
+    width: 24px;
+    height: 24px;
+}
+.draggable_container {
+    height: 380px;
+
+    position: absolute;
+    text-align: left;
+    right: 153px;
+    text-align: center;
+    top: 90px;
+    width: 250px;
+    padding-top:65px;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.draggable_container .ui-draggable  {
+
+    display:inline-block;
+
+    height: 52px;    
+    width: 163px;
+    cursor: move;
+
+}
+.draggable_container .ui-draggable  .name{
+    font-size: 20px;
+    line-height: 34px;
+
+    margin-bottom: 0px;
+    padding: 5px;
+    text-align: center;
+
+    margin:0 auto;
+}
+
+.ex9_box {
+    display: block;
+    height: 330px;
+    position: absolute;
+    right: 4px;
+    top: 54px;
+    width: 534px;
+}
+/* end drag*/
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p46_ex1_box_prezentare {
+    display: block;
+    height: 360px;
+    position: absolute;
+    right: 6px;
+    top: 68px;
+    width: 532px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p46_e1.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e1_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text1.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text2.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex1_place1 {
+    left: 122px;
+    position: absolute;
+    top: 114px;
+}
+#ex1_place2 {
+    left: 742px;
+    position: absolute;
+    top: 120px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+@media screen and (max-width: 115px) {
+
+    .ex2_box_ascultare {
+        height: 100px;
+        right: 15px;
+        top: 140px;
+        width: 75px;
+    }
+    .ex1_box_ascultare {
+        height: 150px;
+        right: 40px;
+        top: 120px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1366px) { 
+
+    .draggable_container {
+        height: 345px;
+        position: absolute;
+        text-align: left;
+        right: 183px;
+        text-align: center;
+        top: 30px;
+    }
+
+    .el1 {
+        right: 570px;
+        top: 133px;
+    }
+
+    .el2 {
+        right: 403px;
+        top: 190px;
+    }
+
+    .el3 {
+        right: 634px;
+        top: 275px;
+    }
+
+    .el4 {
+        right: 403px;
+        top: 332px;
+    }
+
+    .el5 {
+        right: 697px;
+        top: 378px;
+    }
+}
+@media screen and (max-width: 1115px) { 
+
+    .draggable_container {
+        height: 345px;
+        position: absolute;
+        text-align: left;
+        right: 147px;
+        text-align: center;
+        top: 14px;
+    }
+
+    .el1 {
+        right: 570px;
+        top: 22px;
+    }
+
+    .el2 {
+        right: 403px;
+        top: 159px;
+    }
+
+    .el3 {
+        right: 634px;
+        top: 161px;
+    }
+
+    .el4 {
+        right: 403px;
+        top: 275px;
+    }
+
+    .el5 {
+        right: 599px;
+        top: 305px;
+    }
+}

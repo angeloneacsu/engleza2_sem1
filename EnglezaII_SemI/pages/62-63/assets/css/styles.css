@@ -1,0 +1,102 @@
+
+.pag_left {
+    background-image: url("../images/Pg_62.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_63.jpg");
+    background-position: right top;
+}
+.video62{
+    display:block;
+    position:absolute;
+    right:55px; 
+    top:150px;
+    width:345px;
+    height: 240px;
+}
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p63_ex6_box_prezentare {  
+    display: block;
+    height: 570px;
+    position: absolute;
+    right: 4px;
+    top: 52px;
+    width: 528px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p63_e6.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e6_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/img1.png') no-repeat top center;
+    background-size: contain; 
+}
+
+#ex6_place1 {   
+    left: 168px;
+    position: absolute;
+    top: 25px;
+}
+#ex6_place2 {     left: 309px;
+                  position: absolute;
+                  top: 25px;
+}
+#ex6_place3 {     
+    left: 561px;
+    position: absolute;
+    top: 25px;
+}
+#ex6_place4 {     
+    left: 436px;
+    position: absolute;
+    top: 188px;
+}
+#ex6_place5 {     
+    left: 688px;
+    position: absolute;
+    top: 188px;
+}
+#ex6_place6 {     
+    left: 309px;
+    position: absolute;
+    top: 353px;
+}
+#ex6_place7 {     
+    left: 561px;
+    position: absolute;
+    top: 353px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+@media screen and (max-width: 115px) {
+
+    .video62{
+        display:block;
+        position:absolute;
+        right:55px; 
+        top:115px;
+        width:260px;
+        height: 190px;
+    }
+}

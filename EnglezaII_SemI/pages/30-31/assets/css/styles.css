@@ -1,0 +1,352 @@
+#a_anim {
+    background-image: url("../images/a_anim.png");
+    height: 34px;
+    left: 6px;
+    position: absolute;
+    top: 13px;
+    width: 49px;
+}
+.small-a-holder, .p1t-holder, .big-a-holder, .p2t-holder {
+    display: inline-block;
+}
+.small-a-holder, .big-a-holder {
+    width: 125px;
+}
+.p1t-holder, .p2t-holder {
+    width: 250px;
+    margin-bottom: 5px;
+}
+.p1t-holder img, .p2t-holder img{
+    width:250px;
+    height:180px;
+}
+.p2t-holder {
+    margin-bottom: 27px;
+}
+
+.p1r1-holder {
+    margin-top: 5px;
+}
+.p1r2-texts{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p1r2-texts span {
+    text-align: center;
+    display: inline-block;
+    min-width: 40px;
+}
+.p1r21 {
+    margin-right: 41px;
+}
+.p1r22 {
+    margin-right: 41px;
+}
+.p1r23 {
+    margin-right: 40px;
+}
+.p1r24 {
+    margin-right: 41px;
+}
+.p2r1-holder {
+    margin-bottom: 9px;
+}
+
+.p2r2-holder {
+    margin-bottom: 19px;
+}
+.footer_text {
+    border-top: 1px solid #BBD03B;
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 9px;
+    max-width: 375px;
+    margin-top: 10px;
+    padding-top:5px;
+}
+.footer_important {
+    color: #FF0000;
+}
+
+
+.response{
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.pag_left {
+    background-image: url("../images/Pg_30.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_31.jpg");
+    background-position: right top;
+}
+.ex9_box_cantati {
+    display: block;
+    height: 65px;
+    position: absolute;
+    right: 20px;
+    top: 540px;
+    width: 100px;
+}
+.ex2_box_desparte {
+    display: block;
+    height: 100px;
+    position: absolute;
+    right: 25px;
+    top: 395px;
+    width: 490px;
+}
+.video30{
+    display:block;
+    position:absolute;
+    right:40px; 
+    top:155px;
+    width:370px;
+    height: 235px;
+}
+/*custom selectable*/
+.game_frame .elements_data .img_element {
+    height: 130px;
+    margin:20px 15px 10px;
+}
+.game_frame .elements_data.c_true , .game_frame .elements_data.c_false{
+    background-position: top right;
+}
+
+.game_frame .elements_data  {
+    text-align: center;
+    float:left;
+    width:33.33333%;
+}
+.game_frame .elements_data  .sunet{
+    display:inline-block;
+    vertical-align: middle;
+    background: url('../../../../assets/images/sound.jpg') no-repeat center center;
+    width:40px;
+    height:38px;
+    background-size: 40px 38px;
+
+}
+.game_frame .elements_data  .name_tag{
+    display:inline-block;
+    vertical-align: middle;
+    border:3px solid #fca321;
+    color:#000000;
+    height: 33px;
+    line-height: 33px;
+    font-size:22px;
+    text-align: center;
+}
+
+.dictionar {
+    display: block;
+    height: 73px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 710px;
+}
+
+#dictionar .gm_elem{
+    display:block;
+}
+
+.game_frame .gm_elem {
+    display: inline-block;
+}
+
+/*drag game*/
+.drag_container, .game_frame {
+    text-align: right;
+}
+.game_frame .gm_elem {
+    display:block;
+}
+.droppable_container {
+    position:relative;
+    background: url(../images/game/fundal.jpg) no-repeat top center;
+    height: 449px;
+    width:982px;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0px auto 0 auto;
+}
+.el1 {
+	right: 155px;
+	top: 307px;
+}
+.el2 {
+	right: 473px;
+	top: 119px;
+}
+.el3 {
+	right: 675px;
+	top: 240px;
+}
+.el4 {
+	right: 311px;
+	top: 279px;
+}
+
+
+
+.ui-droppable {
+    position:absolute;
+	border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background: rgba(255,255,255,0.5);
+    border:2px solid #000;
+}
+.ui-droppable .err_block{
+
+    position:absolute;
+    height: 24px;
+    top:-24px;
+    right: -20px;
+    width: 20px;
+}
+.ui-droppable .err_block.c_true {
+    background: url(../images/ok.png) no-repeat center center ;   
+    width: 24px;
+    height: 24px;
+}
+.ui-droppable .err_block.c_false {
+    background: url(../images/bad.png) no-repeat center center ;        
+    width: 24px;
+    height: 24px;
+}
+.draggable_container {
+    height: 380px;
+    left: 100px;
+    position: absolute;
+    text-align: left;
+    top: 30px;
+    width: 250px;
+    padding-top:0px;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.draggable_container .ui-draggable  {
+    display:inline-block;
+	height: 45px;
+	width: 45px;
+    cursor: move;
+	border: 2px solid #000;
+	border-radius: 50%;
+}
+.draggable_container .ui-draggable  .name{
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 0px;
+    padding: 5px;
+    text-align: center;
+    margin:0 auto;
+}
+
+.ex9_box {
+    display: block;
+    height: 314px;
+    position: absolute;
+    right: 4px;
+    top: 81px;
+    width: 534px;
+}
+/* end drag*/
+.ex2_vid {
+    bottom: 573px;
+    display: block;
+    height: 44px;
+    left: 40px;
+    position: absolute;
+    width: 171px;
+}
+.video_cta {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.poz_sht {
+ left: 359px;
+    top: 30px;
+}
+.video10 { 
+    left: 180px;
+    top: 85px;
+}
+
+    .karaoke_block {
+    width:263px;
+    height:446px;
+    position:absolute;
+    right:10px;
+    top:25px;
+
+    background: url("../images/game/k.png") no-repeat  right top;
+    background-size:contain;
+}
+@media screen and (max-width: 1366px) { 
+    .el1 {
+        right: 144px;
+        top: 307px;
+    }
+    .el2 {
+        right: 462px;
+        top: 119px;
+    }
+    .el3 {
+        right: 664px;
+        top: 240px;
+    }
+    .el4 {
+        right: 300px;
+        top: 279px;
+    }
+}
+@media screen and (max-width: 1115px) { 
+    .ui-droppable,.draggable_container .ui-draggable{
+           height: 41px;
+
+    width: 41px;
+    }
+    .el1 {
+       right: 126px;
+    top: 270px;
+    }
+    .el2 {
+       right: 407px;
+    top: 104px;
+    }
+    .el3 {
+       right: 584px;
+    top: 211px;
+    }
+    .el4 {
+        right: 264px;
+    top: 245px;
+    }
+}
+@media screen and (max-width: 115px) {
+    .ex9_box_cantati {
+        height: 44px;
+        right: 15px;
+        top: 418px;
+        width: 77px;
+    }
+    .ex2_box_desparte {
+        height: 71px;
+        right: 20px;
+        top: 306px;
+        width: 385px;
+    }
+        .video30{
+    display:block;
+    position:absolute;
+    right:30px; 
+    top:120px;
+    width:295px;
+    height: 185px;
+}
+}

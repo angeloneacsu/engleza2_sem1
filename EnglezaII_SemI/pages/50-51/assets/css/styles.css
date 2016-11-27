@@ -1,0 +1,185 @@
+
+.pag_left {
+    background-image: url("../images/Pg_50.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_51.jpg");
+    background-position: right top;
+}
+
+.ex6_box_ascultare {
+    display: block;
+    height: 195px;
+    position: absolute;
+    right: 140px;
+    top: 250px;
+    width: 360px;
+}
+.ex1_box_ascultare {
+    display: block;
+    height:210px;
+    position: absolute;
+    right: 35px;
+    top:155px;
+    width: 310px;
+}
+
+/*drag game*/
+.drag_container, .game_frame {
+    text-align: right;
+}
+.game_frame .gm_elem {
+    display:block;
+}
+.droppable_container {
+    position:relative;
+    background: url(../images/game/Pg49_ex6.jpg) no-repeat top center;
+    height: 530px;
+    width:484px;
+    margin-bottom: 20px;
+    display: block;
+    margin:0 0 0 auto;
+}
+.el1 {
+    right: 0px;
+    top: 284px; 
+}
+.el2 {
+    right: 320px;
+    top: 344px;
+}
+.el3 {
+    right: 185px;
+    top: 172px;
+}
+.el4 {
+    right: 41px;
+    top: 464px;
+}
+
+.ui-droppable {
+    position:absolute;
+    height: 40px;
+    width: 250px;
+    background: rgba(255,255,255,0.5);
+    border:2px solid #000;
+    border-radius: 10px;
+}
+.ui-droppable .err_block{
+
+    position:absolute;
+    height: 24px;
+    top:-24px;
+    right: -20px;
+    width: 20px;
+}
+.ui-droppable .err_block.c_true {
+    background: url(../images/ok.png) no-repeat center center ;   
+    width: 24px;
+    height: 24px;
+}
+.ui-droppable .err_block.c_false {
+    background: url(../images/bad.png) no-repeat center center ;        
+    width: 24px;
+    height: 24px;
+}
+.draggable_container {
+    height: 380px;
+    left: 100px;
+    position: absolute;
+    text-align: left;
+    top: 30px;
+    width: 250px;
+    padding-top:65px;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.draggable_container .ui-draggable  {
+
+    display:inline-block;
+
+    height: 52px;    
+    width: 254px;
+    cursor: move;
+
+}
+.draggable_container .ui-draggable  .name{
+    font-size: 20px;
+    line-height: 34px;
+
+    margin-bottom: 0px;
+    padding: 5px;
+    text-align: left;
+
+    margin:0 auto;
+}
+
+.ex9_box {
+    display: block;
+    height: 597px;
+    position: absolute;
+    right: 5px;
+    top: 55px;
+    width: 528px;
+}
+/* end drag*/
+@media screen and (max-width: 115px) {
+
+    .ex6_box_ascultare {
+        height: 145px;
+        right: 105px;
+        top: 195px;
+        width: 285px;
+    }
+    .ex1_box_ascultare {
+        height: 155px;
+        right: 30px;
+        top: 120px;
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 1366px) { 
+    .el1 {
+        right: 60px;
+        top: 155px; 
+    }
+    .el2 {
+        right: 271px;
+        top: 230px;
+    }
+    .el3 {
+        right: 166px;
+        top: 45px;
+    }
+    .el4 {
+        right: 115px;
+        top: 353px;
+    }
+
+}
+@media screen and (max-width: 1115px) { 
+    .draggable_container {
+         left: 22px;
+    }
+    .el1 {
+        right: 60px;
+        top: 155px; 
+    }
+    .el2 {
+        right: 271px;
+        top: 230px;
+    }
+    .el3 {
+        right: 166px;
+        top: 45px;
+    }
+    .el4 {
+        right: 115px;
+        top: 323px;
+    }
+
+}

@@ -1,0 +1,205 @@
+#a_anim {
+    background-image: url("../images/a_anim.png");
+    height: 34px;
+    left: 6px;
+    position: absolute;
+    top: 13px;
+    width: 49px;
+}
+.small-a-holder, .p1t-holder, .big-a-holder, .p2t-holder {
+    display: inline-block;
+}
+.small-a-holder, .big-a-holder {
+    width: 125px;
+}
+.p1t-holder, .p2t-holder {
+    width: 250px;
+    margin-bottom: 5px;
+}
+.p1t-holder img, .p2t-holder img{
+    width:250px;
+    height:180px;
+}
+.p2t-holder {
+    margin-bottom: 27px;
+}
+
+.p1r1-holder {
+    margin-top: 5px;
+}
+.p1r2-texts{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p1r2-texts span {
+    text-align: center;
+    display: inline-block;
+    min-width: 40px;
+}
+.p1r21 {
+    margin-right: 41px;
+}
+.p1r22 {
+    margin-right: 41px;
+}
+.p1r23 {
+    margin-right: 40px;
+}
+.p1r24 {
+    margin-right: 41px;
+}
+.p2r1-holder {
+    margin-bottom: 9px;
+}
+
+.p2r2-holder {
+    margin-bottom: 19px;
+}
+.footer_text {
+    border-top: 1px solid #BBD03B;
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 9px;
+    max-width: 375px;
+    margin-top: 10px;
+    padding-top:5px;
+}
+.footer_important {
+    color: #FF0000;
+}
+
+
+.response{
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.pag_left {
+    background-image: url("../images/Pg_58.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_59.jpg");
+    background-position: right top;
+}
+
+.ex1_box_retine {
+    display: block;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    top: 220px;
+    width: 100px;
+}
+
+/*game click on corect css*/
+
+
+.game_frame .elements_data  {
+    margin-bottom:0px;
+}
+.game_frame .elements_data  {
+
+}
+.game_frame .elements_data .img_element{
+    height:120px;
+
+}
+.game_frame .elements_data .name {
+    font-size:26px;
+    line-height: 28px;
+    font-weight: bold;
+    color:#3698d3;
+}
+/*.game_frame .elements_data br {
+    display:none;
+}*/
+
+/*custom input game selectable*/
+.game_frame .checkbox-holder div:first-child{
+    margin-top:10px;
+}
+.game_frame .checkbox-holder div {
+    font-size: 20px;
+    height: 26px;
+    line-height: 26px;
+    color:#3698d3;
+    display:block;
+    text-align: center;
+    margin-top:5px;
+    border:1px solid transparent;
+}
+.game_frame .checkbox-holder div.checked {
+    border:1px solid #ad1283;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.game_frame .checkbox-holder div.c_false{
+    border-color:#CC0000;
+}
+.game_frame .checkbox-holder div.c_true{
+    border-color:#8FC800;
+}
+.ex3{
+    display: block;
+    height: 360px;
+    position: absolute;
+    right: 9px;
+    top: 290px;
+    width: 530px;
+}
+#multiple_choice_select.game_frame .gm_elem{
+    display:block;
+    line-height: 0px;
+    font-size:0px;
+}
+#multiple_choice_select.game_frame .gm_elem .elements_data{
+    width:50%;
+	margin-bottom: 10px;
+}
+#multiple_choice_select.game_frame .elements_data .img_element{
+    height: 170px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder {
+    /*position:absolute;*/
+    bottom:20px;
+    width:100%;
+    left:0px;
+    text-align: center;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response {
+   border: 1px solid rgba(0, 0, 0, 0);
+    color: #000000;
+    display: block;
+	font-size: 28px;
+	height: 30px;
+	line-height: 28px;
+    margin-top: 5px;
+    text-align: center;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.checked {
+color:#009ec3;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_false {
+color:#cc0000;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_true {
+color:#61c419;
+}
+.game_frame .elements_data.c_true,.game_frame .elements_data.c_false{
+    background: none;
+    
+}
+
+
+/*end click on corect css*/
+
+@media screen and (max-width: 115px) {
+ 
+    .ex1_box_retine {
+        height: 55px;
+        right: 15px;
+        top: 170px;
+        width: 75px;
+    }
+    
+}

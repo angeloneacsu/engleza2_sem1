@@ -1,0 +1,1308 @@
+
+.footer_text {
+    border-top: 1px solid #BBD03B;
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 9px;
+    max-width: 375px;
+    margin-top: 10px;
+    padding-top:5px;
+}
+.footer_important {
+    color: #FF0000;
+}
+
+
+.response{
+    color: #fff;
+}
+.pag_left {
+    background-image: url("../images/Pg65.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/pg67_bk_white.jpg");
+    background-position: right top;
+}
+
+.ex2_vid {
+    bottom: 536px;
+    display: block;
+    height: 40px;
+    left: 43px;
+    position: absolute;
+    width: 95px;
+}
+.video_cta {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.video10 { 
+    left: 112px;
+    top: 123px;
+}
+
+.corner_top_prev, .corner_top_next, .corner_prev, .corner_next   {
+    display: none;
+}
+
+#back_to_button {
+    position: absolute;
+    display: block;
+    background: url(../images/game/back_button.png) no-repeat top center;
+    width: 156px;
+    height: 78px;
+    bottom: 34px;
+    left:200px;
+}
+
+
+/**********************************/
+/*drag game*/
+/**********************************/
+.drag_container, .game_frame {
+    text-align: right;
+}
+.game_frame .gm_elem {
+    display:block;
+}
+.droppable_container {
+    position:relative;
+    height: 530px;
+    width:960px;
+    margin-bottom: 20px;
+    display: block;
+    margin:0 0 0 auto;
+}
+#droppable_container1{
+    background: url(../images/game/pg66_ex_myfamly.jpg) no-repeat top center;
+}
+
+#droppable_container1 .el1 {
+    right: 111px;
+    top: 140px;
+}
+#droppable_container1 .el2 {
+    right: 111px;
+    top: 217px;
+}
+#droppable_container1 .el3 {
+    right: 111px;
+    top: 295px;
+}
+#droppable_container1 .el4 {
+    right: 111px;
+    top: 374px;
+}
+#droppable_container1 .el5 {
+    right: 111px;
+    top: 452px;
+}
+#droppable_container1 .ui-droppable {
+    position:absolute;
+    height: 36px;
+    width: 139px;
+    background: rgba(255,255,255,0);
+    border:0px solid #f00;
+    border-radius: 20px;
+}
+.ui-droppable .err_block{
+
+    position:absolute;
+    height: 24px;
+    right: -41px;
+    top: 2px;
+    width: 20px;
+}
+.ui-droppable .err_block.c_true {
+    background: url(../images/ok.png) no-repeat center center ;   
+    width: 24px;
+    height: 24px;
+}
+.ui-droppable .err_block.c_false {
+    background: url(../images/bad.png) no-repeat center center ;        
+    width: 24px;
+    height: 24px;
+}
+.draggable_container {
+    height: 380px;
+    left: 0px;
+    position: absolute;
+    text-align: left;
+    top: 30px;
+    width: 250px;
+    padding-top:65px;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.draggable_container .ui-draggable  {
+    display:inline-block;
+    height: 52px;    
+    width: 163px;
+    cursor: move;
+    position:absolute !important;
+}
+
+#draggable_container1 .droppable_container_el1 {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+
+#draggable_container1 .droppable_container_el2 {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+#draggable_container1 .droppable_container_el3 {
+    position: absolute;
+    top: 450px;
+    left: 450px;
+}
+
+#draggable_container1 .droppable_container_el4 {
+    position: absolute;
+    top: 180px;
+    left: 270px;
+}
+
+#draggable_container1 .droppable_container_el5 {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+
+#draggable_container1 .drag_el1 {
+    top: 100px;
+    left: 100px;
+}
+
+#draggable_container1 .drag_el2 {
+    top: 200px;
+    left: 100px;
+}
+
+#draggable_container1 .drag_el3 {
+    top: 100px;
+    left: 200px;
+}
+
+#draggable_container1 .drag_el4 {
+    top: 200px;
+    left: 200px;
+}
+
+#draggable_container1 .drag_el5 {
+    top: 200px;
+    left: 300px;
+}
+
+.draggable_container .ui-draggable  .name{
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 0px;
+    padding: 0px 0 3px 0;
+    text-align: center;
+    margin:0 auto;
+    background: #ccc;
+    border-radius: 20px;
+    width: 130px;
+}
+
+.ex9_box {
+    top: 92px;
+    display: block;
+    height: 130px;
+    position: absolute;
+    right: 24px;
+    width: 508px;
+}
+/**********************************/
+/* end drag*/
+/**********************************/
+
+
+
+
+
+/**********************************/
+/*	drag game 2	*/
+/**********************************/
+.drag_container, .game_frame {
+    text-align: right;
+}
+.game_frame .gm_elem {
+    display:block;
+}
+.droppable_container {
+    position:relative;
+    height: 530px;
+    width:960px;
+    margin-bottom: 20px;
+    display: block;
+    margin:0 0 0 auto;
+}
+
+#droppable_container2{
+    background: url(../images/game/pg66_ex3_my_body.jpg) no-repeat top center;
+}
+
+#droppable_container2 .el1 {
+    top: 81px;
+    left: 261px;
+}
+#droppable_container2 .el2 {
+    top: 81px;
+    left: 303px;
+}
+#droppable_container2 .el3 {
+    top: 81px;
+    left: 346px;
+}
+#droppable_container2 .el4 {
+    top: 81px;
+    left: 389px;
+}
+#droppable_container2 .el5 {
+    top: 208px;
+    left: 227px;
+}
+#droppable_container2 .el6 {
+    top: 208px;
+    left: 270px;
+}
+#droppable_container2 .el7 {
+    top: 208px;
+    left: 312px;
+}
+#droppable_container2 .el8 {
+    top: 357px;
+    left: 634px;
+}
+#droppable_container2 .el9 {
+    top: 357px;
+    left: 677px;
+}
+#droppable_container2 .el10 {
+    top: 357px;
+    left: 720px;
+}
+#droppable_container2 .el11 {
+    top: 357px;
+    left: 761px;
+}
+#droppable_container2 .el12 {
+    top: 357px;
+    left: 804px;
+}
+
+#droppable_container2 .el13 {
+    top: 477px;
+    left: 157px;
+}
+#droppable_container2 .el14 {
+    top: 477px;
+    left: 199px;
+}
+#droppable_container2 .el15 {
+    top: 477px;
+    left: 241px;
+}
+#droppable_container2 .el16 {
+    top: 477px;
+    left: 283px;
+}
+#droppable_container2 .el17 {
+    top: 480px;
+    left: 548px;
+}
+#droppable_container2 .el18 {
+    top: 480px;
+    left: 590px;
+}
+#droppable_container2 .el19 {
+    top: 480px;
+    left: 632px;
+}
+#droppable_container2 .ui-droppable {
+    position:absolute;
+    height: 34px;
+    width: 35px;
+    background: rgba(255,255,255,0);
+    border:0px solid #f00;
+    border-radius: 0px;
+}
+#droppable_container2 .ui-droppable .err_block{
+
+    position:absolute;
+    height: 24px;
+    right: -41px;
+    top: 2px;
+    width: 20px;
+
+    right: 6px;
+    top: -29px;
+}
+.draggable_container .ui-draggable{
+    z-index:104;
+}
+#droppable_container2 .ui-droppable .err_block.c_true {
+    background: url(../images/ok.png) no-repeat center center ;   
+    width: 24px;
+    height: 24px;
+}
+#droppable_container2 .ui-droppable .err_block.c_false {
+    background: url(../images/bad.png) no-repeat center center ;        
+    width: 24px;
+    height: 24px;
+}
+.draggable_container {
+    height: 380px;
+    left: 0px;
+    position: absolute;
+    text-align: left;
+    top: 30px;
+    width: 250px;
+    padding-top:65px;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.draggable_container .ui-draggable  {
+    display:inline-block;
+    height: 34px;    
+    width: 35px;
+    cursor: move;
+    position: relative !important;
+}
+
+#draggable_container2 .droppable_container_el1 {
+    position: absolute;
+    top: 25px;
+    left: 279px;
+    border: 0px solid red;
+    display: block;
+    width: 164px;
+}
+
+#draggable_container2 .droppable_container_el2 {
+    position: absolute;
+    top: 151px;
+    left: 234px;
+    border: 0px solid red;
+    display: block;
+    width: 145px;
+}
+
+#draggable_container2 .droppable_container_el3 {
+    position: absolute;
+    top: 300px;
+    left: 654px;
+    border: 0px solid red;
+    display: block;
+    width: 205px;
+}
+
+#draggable_container2 .droppable_container_el4 {
+    position: absolute;
+    top: 420px;
+    left: 167px;
+    border: 0px solid red;
+    display: block;
+    width: 180px;
+}
+
+#draggable_container2 .droppable_container_el5 {
+    position: absolute;
+    top: 420px;
+    left: 557px;
+    border: 0px solid red;
+    display: block;
+    width: 145px;
+}
+
+#draggable_container2 .drag_el1 {
+    top: 100px;
+    left: 100px;
+}
+
+#draggable_container2 .drag_el2 {
+    top: 200px;
+    left: 100px;
+}
+
+#draggable_container2 .drag_el3 {
+    top: 100px;
+    left: 200px;
+}
+
+#draggable_container2 .drag_el4 {
+    top: 200px;
+    left: 200px;
+}
+
+#draggable_container2 .drag_el5 {
+    top: 200px;
+    left: 300px;
+}
+
+.draggable_container .ui-draggable  .name{
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 0px;
+    padding: 0px 0 3px 0;
+    text-align: center;
+    margin:0 auto;
+    background: #ccc;
+    border-radius: 20px;
+    width: 130px;
+}
+
+.p66_ex3_box {
+    top: 392px;
+    display: block;
+    height: 130px;
+    position: absolute;
+    right: 24px;
+    width: 508px;
+}
+
+/**********************************/
+/*	end drag 2	*/
+/**********************************/
+
+
+
+/**********************************/
+/*game click on corect css*/
+/**********************************/
+
+.game_frame .elements_data  {
+    margin-bottom:0px;
+}
+.game_frame .elements_data  {
+
+}
+.game_frame .elements_data .img_element{
+    height:120px;
+
+}
+.game_frame .elements_data .name {
+    font-size:26px;
+    line-height: 28px;  
+    color:#3698d3;
+}
+
+.game_frame .checkbox-holder div:first-child{
+    margin-top:10px;
+}
+.game_frame .checkbox-holder div {
+    font-size: 20px;
+    height: 26px;
+    line-height: 26px;
+    color:#3698d3;
+    display:block;
+    text-align: center;
+    margin-top:5px;
+    border:1px solid transparent;
+}
+.game_frame .checkbox-holder div.checked {
+    border:1px solid #ad1283;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.game_frame .checkbox-holder div.c_false{
+    border-color:#CC0000;
+}
+.game_frame .checkbox-holder div.c_true{
+    border-color:#8FC800;
+}
+.ex3{
+    display: block;
+    height: 108px;
+    position: absolute;
+    right: 24px;
+    bottom: 41px;
+    width: 508px;
+}
+#multiple_choice_select.game_frame .gm_elem{
+    display:block;
+    line-height: 0px;
+    font-size:0px;
+}
+#multiple_choice_select.game_frame .gm_elem .elements_data{
+    width:50%;
+    margin-bottom: 10px;
+}
+#multiple_choice_select.game_frame .elements_data .img_element{
+    height: 230px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder {
+    position: absolute;
+    width: 50%;
+    bottom: -5px;
+    right: -37px;
+    padding: 10px;
+    text-align: center;
+    background: url(../images/game/pg66_ex_i_can_sing_bg.png) no-repeat 0% 50%;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response {
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #000000;
+    display: block;
+    font-size: 22px;
+    height: 30px;
+    line-height: 22px;
+    margin-top: 5px;
+    text-align: left;
+    padding: 0 0 0 50px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.checked {
+    color:#009ec3;
+    background: url(../images/game/checked.png) no-repeat 2.5% 50%;
+    background-size: 21px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_false {
+    color:#cc0000;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_true {
+    color:#61c419;
+}
+.game_frame .elements_data.c_true,.game_frame .elements_data.c_false{
+    background: none;
+
+}
+
+#multiple_choice_select .sound_cta_alone.sunet {
+    position: relative !important;
+}
+
+.inlineblock_1 {
+
+}
+/**********************************/
+/*end click on corect css*/
+/**********************************/
+
+
+
+
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p8_ex1_box_prezentare {
+    display: block;
+    height: 373px;
+    left: 4px;
+    position: absolute;
+    top: 128px;
+    width: 530px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+.static_options .onclick_show {
+    background: #fff;
+}
+
+#static_ex .bk1 {
+    background:url('../images/game/pg66_ex_my_birthday.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e1_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background:url('../images/game/pg66_ex_my_birthday_1.jpg') no-repeat top center;
+    background-size: contain; 
+}
+
+#ex1_place1 {
+    position: absolute;
+    top: 136px;
+    left: 326px;
+}
+
+.p9_ex4_box_prezentare {
+    display: block;
+    height: 130px;
+    position: absolute;
+    right: 24px;
+    top: 241px;
+    width: 508px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+
+
+
+
+/**********************************/
+/*css input game*/
+/**********************************/
+/*start custom css element placement*/
+#correct_order_select.game_frame .gm_elem {
+    display:block;
+
+}
+#correct_order_select.game_frame .elements_data {
+    display: block;
+    text-align: left;
+    margin: 0;
+    width: 30px;
+    float: left;
+    margin-right: 2.5px;
+}
+#correct_order_select.game_frame .elements_data div{
+    vertical-align: middle;
+} 
+#correct_order_select.game_frame .elements_data br{
+    display:none
+} 
+#correct_order_select.game_frame .elements_data .name{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgb(41,91,180);
+    min-width: 185px;
+}
+#correct_order_select.game_frame .container {
+    padding:20px 0;
+    background: url("../images/game/pg66_ex_my_birthday.jpg") no-repeat 50% center;
+    height: 480px
+}
+
+#correct_order_select.game_frame .checkbox-holder {
+    margin-left:0px;
+
+
+}
+.error{
+    display:none;
+    border:none!important
+
+}
+.error.c_true,.error.c_false {
+    right:0px;
+    top: -1px;
+    display:block;
+}
+.ex2 {
+    display: block;
+    height: 130px;
+    position: absolute;
+    right: 24px;
+    top: 241px;
+    width: 508px;
+}
+/*end*/
+
+input.response{
+    color: #000;
+    text-align: center;
+    font-size: 21px;
+    line-height: 22px;
+    width: 22px;
+    padding: 2px;
+    height: 22px;
+    margin: 0 auto;
+    font-weight: normal;
+    border: 2px solid #fca321;
+
+    -webkit-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;}
+input.response.c_true {
+    color:#8FC800;
+}
+
+input.response.c_false {
+    color:#CC0000;
+}
+
+.game_frame .elements_data {
+    position:relative;
+    margin-bottom:30px;
+}
+
+/*.game_frame .elements_data .checkbox-holder{
+    position:absolute;
+    bottom:5px;
+    left:5px;
+}*/
+.game_frame .elements_data.c_true,.game_frame .elements_data.c_false{
+    background: none;
+
+}
+
+.gm_elem1, .gm_elem2, .gm_elem3 {
+    display: block;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.gm_elem1{
+    top: 2px;
+    left: 105px;
+}
+
+.gm_elem2{
+    top: 2px;
+    left: 344px;
+}
+
+.gm_elem3{
+    top: 2px;
+    left: 688px;
+}
+
+/**********************************/
+/*css input game end*/
+/**********************************/
+
+
+
+.gm_container {
+    z-index:10;
+}
+.score_box {
+    position:absolute;
+    border:1px solid red;
+    border-color:transparent;
+    width:31px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    font-size:16px;
+}
+#eval_gm1 {
+    left: 27px;
+    top: 151px;
+}
+#eval_gm2 {
+    left: 27px;
+    top: 294px;
+}
+#eval_gm3 {
+    left: 27px;
+    top: 440px;
+}
+#eval_gm4 {
+    left: 27px;
+    top: 588px;
+}
+#eval_gm_total{
+    bottom: 12px;
+    left: 108px;
+    width: 48px;
+}
+.karaoke_block {
+    width:263px;
+    height:446px;
+    position:absolute;
+    right:10px;
+    top:25px;
+
+    background: url("../images/game/k.png") no-repeat  right top;
+    background-size:contain;
+}
+@media screen and (max-width: 115px) {
+    .ex4_box_frunza {
+        display: block;
+        height: 55px;
+        position: absolute;
+        right: 15px;
+        top: 30px;
+        width: 75px;
+    }
+    .ex6_box_asculta {
+        display:block;
+        position:absolute;
+        right:15px; 
+        top:265px;
+        width:75px; 
+        height: 100px;
+    }
+    .ex6 {
+        display: block;
+        height: 115px;
+        position: absolute;
+        right: 105px;
+        top: 290px;
+        width: 295px;
+    }
+
+
+    .game_frame .elements_data .img_element {
+        height: 68px;
+    }
+    .game_frame .elements_data .name {
+        color: #3698D3;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 24px;
+    }
+    .video10{
+        display:block;
+        position:absolute;
+        right:50px; 
+        top:90px;
+        width:280px;
+        height: 145px;
+    }
+}
+
+
+@media screen and (max-width: 1366px)  { 
+    #drag_container1 .draggable_container .ui-draggable {
+        width: 124px;
+    }
+
+    #droppable_container1 .ui-droppable {
+        height: 27px;
+        width: 124px;
+    }
+
+    #drag_container1 .ui-draggable img {
+        width: 100%;
+        height: auto;
+    }
+
+    #droppable_container1 .el1 {
+        right: 158px;
+        top: 122px;
+    }
+
+    #droppable_container1 .el2 {
+        right: 158px;
+        top: 189px;
+    }
+
+    #droppable_container1 .el3 {
+        right: 158px;
+        top: 256px;
+    }
+
+    #droppable_container1 .el4 {
+        right: 158px;
+        top: 323px;
+    }
+
+    #droppable_container1 .el5 {
+        right: 158px;
+        top: 390px;
+    }
+
+    #draggable_container1 .droppable_container_el2 {
+        position: absolute;
+        top: 137px;
+        left: 153px;
+    }
+
+    #draggable_container1 .droppable_container_el4 {
+        position: absolute;
+        top: 137px;
+        left: 321px;
+    }
+
+    #draggable_container1 .droppable_container_el5 {
+        position: absolute;
+        top: 275px;
+        left: 322px;
+    }
+
+    #draggable_container1 .droppable_container_el1 {
+        position: absolute;
+        top: 275px;
+        left: 156px;
+    }
+
+    #draggable_container1 .droppable_container_el3 {
+        position: absolute;
+        top: 362px;
+        left: 450px;
+    }
+
+
+
+    /*	start droppable container2	 */
+
+    #drag_container2 .draggable_container .ui-draggable {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+    }
+
+    #droppable_container2 .ui-droppable {
+        position: absolute;
+        height: 30px;
+        width: 31px;
+    }
+
+    #drag_container2 .draggable_container .ui-draggable img {
+        width: 100%;
+        height: auto;
+    }
+
+    #draggable_container2 .droppable_container_el1 {
+        top: 0px;
+        left: 295px;
+    }
+
+    #draggable_container2 .droppable_container_el2 {
+        top: 110px;
+        left: 264px;
+    }
+
+    #draggable_container2 .droppable_container_el3 {
+        top: 240px;
+        left: 616px;
+    }
+
+    #draggable_container2 .droppable_container_el4 {
+        top: 343px;
+        left: 202px;
+    }
+
+    #draggable_container2 .droppable_container_el5 {
+        top: 342px;
+        left: 541px;
+    }
+
+    #droppable_container2 .el1 {
+        top: 70px;
+        left: 291px;
+    }
+
+    #droppable_container2 .el2 {
+        top: 70px;
+        left: 328px;
+    }
+
+    #droppable_container2 .el3 {
+        top: 70px;
+        left: 364px;
+    }
+
+    #droppable_container2 .el4 {
+        top: 70px;
+        left: 401px;
+    }
+
+    #droppable_container2 .el5 {
+        top: 180px;
+        left: 263px;
+    }
+
+    #droppable_container2 .el6 {
+        top: 180px;
+        left: 298px;
+    }
+
+    #droppable_container2 .el7 {
+        top: 180px;
+        left: 335px;
+    }
+
+    #droppable_container2 .el8 {
+        top: 309px;
+        left: 614px;
+    }
+
+    #droppable_container2 .el9 {
+        top: 309px;
+        left: 650px;
+    }
+
+    #droppable_container2 .el10 {
+        top: 309px;
+        left: 686px;
+    }
+    #droppable_container2 .el11 {
+        top: 309px;
+        left: 722px;
+    }
+    #droppable_container2 .el12 {
+        top: 309px;
+        left: 759px;
+    }
+
+    #droppable_container2 .el13 {
+        top: 412px;
+        left: 202px;
+    }
+
+    #droppable_container2 .el14 {
+        top: 412px;
+        left: 238px;
+    }
+
+    #droppable_container2 .el15 {
+        top: 412px;
+        left: 274px;
+    }
+
+    #droppable_container2 .el16 {
+        top: 412px;
+        left: 311px;
+    }
+
+    #droppable_container2 .el17 {
+        top: 414px;
+        left: 539px;
+    }
+
+    #droppable_container2 .el18 {
+        top: 414px;
+        left: 575px;
+    }
+
+    #droppable_container2 .el19 {
+        top: 414px;
+        left: 612px;
+    }
+
+
+
+}
+@media screen and (max-width: 1115px)  { 
+    #drag_container1 .draggable_container .ui-draggable {
+        width: 124px;
+    }
+
+    #droppable_container1 .ui-droppable {
+        height: 27px;
+        width: 124px;
+    }
+
+    #drag_container1 .ui-draggable img {
+        width: 100%;
+        height: auto;
+    }
+
+    #droppable_container1 .el1 {
+        right: 124px;
+        top: 109px;
+    }
+
+    #droppable_container1 .el2 {
+        right: 118px;
+        top: 169px;
+    }
+
+    #droppable_container1 .el3 {
+        right: 116px;
+        top: 232px;
+    }
+
+    #droppable_container1 .el4 {
+        right: 116px;
+        top: 290px;
+    }
+
+    #droppable_container1 .el5 {
+        right: 117px;
+        top: 353px;
+    }
+
+    #draggable_container1 .droppable_container_el2 {
+        position: absolute;
+        top: 137px;
+        left: 153px;
+    }
+
+    #draggable_container1 .droppable_container_el4 {
+        position: absolute;
+        top: 137px;
+        left: 321px;
+    }
+
+    #draggable_container1 .droppable_container_el5 {
+        position: absolute;
+        top: 275px;
+        left: 322px;
+    }
+
+    #draggable_container1 .droppable_container_el1 {
+        position: absolute;
+        top: 275px;
+        left: 156px;
+    }
+
+    #draggable_container1 .droppable_container_el3 {
+        left: 429px;
+        position: absolute;
+        top: 319px;
+    }
+
+
+
+    /*	start droppable container2	 */
+
+    #drag_container2 .draggable_container .ui-draggable {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+    }
+
+    #droppable_container2 .ui-droppable {
+        position: absolute;
+        height: 30px;
+        width: 31px;
+    }
+
+    #droppable_container2{
+        background-position: center -26px;
+    }
+
+    #drag_container2 .draggable_container .ui-draggable img {
+        width: 100%;
+        height: auto;
+    }
+
+    #draggable_container2 .droppable_container_el1 {
+        left: 253px;
+        top: -27px;
+    }
+
+    #draggable_container2 .droppable_container_el2 {
+     left: 219px;
+    top: 65px;
+    }
+
+    #draggable_container2 .droppable_container_el3 {
+        left: 540px;
+        top: 185px;
+    }
+
+    #draggable_container2 .droppable_container_el4 {
+        left: 164px;
+        top: 279px;
+    }
+
+    #draggable_container2 .droppable_container_el5 {
+        left: 469px;
+        top: 278px;
+    }
+
+    #droppable_container2 .el1 {
+
+         left: 251px;
+    top: 35px;
+    }
+
+    #droppable_container2 .el2 {
+       left: 284px;
+    top: 35px;
+    }
+
+    #droppable_container2 .el3 {
+        top: 35px;
+        left:317px;
+    }
+
+    #droppable_container2 .el4 {
+        top: 35px;
+        left: 350px;
+    }
+
+    #droppable_container2 .el5 {
+left: 223px;
+    top: 134px;
+    }
+
+    #droppable_container2 .el6 {
+        top: 134px;
+        left: 256px;
+    }
+
+    #droppable_container2 .el7 {
+        top: 134px;
+        left: 292px;
+    }
+
+    #droppable_container2 .el8 {
+    left: 541px;
+    top: 252px;
+    }
+
+    #droppable_container2 .el9 {
+        top: 252px;
+        left: 575px;
+    }
+
+    #droppable_container2 .el10 {
+        top: 252px;
+        left: 607px;
+    }
+    #droppable_container2 .el11 {
+        top: 252px;
+        left: 639px;
+    }
+    #droppable_container2 .el12 {
+        top: 252px;
+        left: 675px;
+    }
+
+    #droppable_container2 .el13 {
+  left: 168px;
+    top: 347px;
+    }
+
+    #droppable_container2 .el14 {
+        top: 347px;
+        left: 203px;
+    }
+
+    #droppable_container2 .el15 {
+        top: 347px;
+        left: 235px;
+    }
+
+    #droppable_container2 .el16 {
+        top: 347px;
+        left: 269px;
+    }
+
+    #droppable_container2 .el17 {
+         left: 474px;
+    top: 349px;
+    }
+
+    #droppable_container2 .el18 {
+         top: 349px;
+        left: 508px;
+    }
+
+    #droppable_container2 .el19 {
+         top: 349px;
+        left: 541px;
+    }
+
+
+
+
+}

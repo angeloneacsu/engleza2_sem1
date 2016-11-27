@@ -1,0 +1,651 @@
+
+/*.wrapper  {
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    margin-top:83px;
+
+}*/
+
+.pag_left {
+    background-image: url("../images/Pg_08.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_09.jpg");
+    background-position: right top;
+}
+
+.ex2_box_prezentare {
+    display: block;
+    height: 510px;
+    position: absolute;
+    right: 10px;
+    top: 79px;
+    width: 527px;
+}
+
+.ex3_box_prezentare {
+    bottom: 57px;
+    display: block;
+    height: 210px;
+    position: absolute;
+    right: 5px;
+    width: 534px;
+}
+
+.ex4_box_arbore {
+    display: block;
+    height: 65px;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    width: 100px;
+}
+.ex5_box_retine {
+    display: block;
+    height: 25px;
+    position: absolute;
+    right: 150px;
+    top: 285px;
+    width: 275px;
+}
+
+/*custom input game selectable*/
+.game_frame .checkbox-holder div:first-child{
+    margin-top:10px;
+}
+.game_frame .checkbox-holder div {
+    font-size: 20px;
+    height: 26px;
+    line-height: 26px;
+    color:#3698d3;
+    display:block;
+    text-align: center;
+    margin-top:5px;
+    border:1px solid transparent;
+}
+.game_frame .checkbox-holder div.checked {
+    border:1px solid #F8B500;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.game_frame .checkbox-holder div.c_false{
+    border-color:#CC0000;
+}
+.game_frame .checkbox-holder div.c_true{
+    border-color:#8FC800;
+}
+#static_ex .placeholder {
+    padding:0px;
+}
+#static_ex .gm_elem {
+    display:block;
+}
+.clicl_elem  {
+    cursor:pointer;
+}
+.number_hook {
+    display:block;
+    height: 80px;
+    width:80px;
+    font-size:50px;
+    line-height: 80px;
+    color:#ffffff;
+    color: #FFFFFF;
+    display: block;
+    font-size: 50px;
+    height: 85px;
+    line-height: 96px;
+    width: 104px;
+    text-align: center;
+    text-shadow: -3px 0 0 #ff7d03, 0 -1px 0 #ff7d03, 0 1px 0 #ff7d03, -1px 0 0 #ff7d03;
+}
+.bk {
+    background:url('../images/game/img1.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: cover
+}
+
+.bk1 {
+    background:url('../images/game/img2.jpg') no-repeat center center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+}
+
+.img1 {
+
+
+    height: 306px;
+    left: 179px;
+    position: absolute;
+    top: 195px;
+    width: 183px;
+    z-index: 200;     
+
+}
+.img1 .item_ch{
+
+    height: 306px;
+    width: 239px;
+    background:url('../images/game/img1_ex1.png') no-repeat center center;
+    background-size: contain;
+}
+.img2 {
+
+    height: 306px;
+    left: 338px;
+    position: absolute;
+    top: 53px;
+    width: 164px;     
+}
+.img2 .item_ch{
+
+    background:url('../images/game/m2.png') no-repeat center center;
+    background-size: contain;
+    height: 387px;
+    left: -27px;
+    position: relative;
+    width: 235px;
+
+}
+.img3 {
+
+    height: 303px;
+    left: 502px;
+    position: absolute;
+    top: 0;
+    width: 177px;
+}
+.img3 .item_ch{
+    background:url('../images/game/m3.png') no-repeat center center;
+    background-size: contain;
+    height: 452px;
+    left: -34px;
+    position: relative;
+    width: 253px;
+
+}
+.img4 {
+    height: 343px;
+    position: absolute;
+    right: 180px;
+    top: 118px;
+    width: 163px;    
+}
+.img4 .item_ch{
+    height: 376px;
+    left: -74px;
+    position: relative;
+    width: 269px;
+    background:url('../images/game/m4.png') no-repeat center center;
+    background-size: contain;
+
+}
+.img5 {
+    width: 26px;
+    height: 26px;
+    left: 373px;
+    top: 462px;
+    position: absolute;
+    background: #ff9900;
+    border-radius: 50%;
+}
+
+.img5 .item_ch{
+    background:red;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: -100px;
+    left: -284px;
+}
+
+.img6 {
+    width: 26px;
+    height: 26px;
+    left: 463px;
+    top: 462px;
+    position: absolute;
+    border: 1px solid red;
+}
+.img6 .item_ch{
+    background:green;
+    width: 370px;
+    height: 100px;
+    position: relative;
+    top: 27px;
+    left: -356px;
+}
+
+.img7 {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 462px;
+    left: 624px;
+    border: 1px solid red;
+}
+.img7 .item_ch{
+    background:blue;
+    width: 270px;
+    height: 100px;
+    position: relative;
+    top: -40px;
+    left: 27px;
+}
+
+
+.item_ch {
+    display:none;
+}
+
+.gm_elem .sound_cta_alone {
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../../../../assets/images/sound.jpg') no-repeat center center;
+    width: 40px;
+    height: 38px;
+    background-size: 40px 38px;
+}
+
+/*drop*/
+
+/*drag game*/
+.drag_container, .game_frame {
+    text-align: right
+}
+.game_frame .gm_elem {
+    display:block;
+}
+.droppable_container {
+    position:relative;
+    background: url(../images/game/joc.png) no-repeat top center;
+    height: 530px;
+    width:850px;
+    margin-bottom: 20px;
+    display: block;
+    margin:0 auto;
+}
+.el1 {
+    right: 172px;
+    top: 445px; 
+}
+.el2 {
+    right: 654px;
+    top: 429px;
+}
+.el3 {
+    right: 66px;
+    top: 273px;
+}
+.el4 {
+    right: 231px;
+    top: 14px;
+}
+.ui-droppable {
+    position:absolute;
+    height: 52px;
+    width: 163px;
+    background: rgba(255,255,255,0.5);
+    border:2px solid #000;
+}
+.ui-droppable .err_block{
+
+    position:absolute;
+    height: 24px;
+    top:-24px;
+    right: -20px;
+    width: 20px;
+}
+.ui-droppable .err_block.c_true {
+    background: url(../images/ok.png) no-repeat center center ;   
+    width: 24px;
+    height: 24px;
+}
+.ui-droppable .err_block.c_false {
+    background: url(../images/bad.png) no-repeat center center ;        
+    width: 24px;
+    height: 24px;
+}
+.draggable_container {
+    height: 248px;
+    left: 289px;
+    position: absolute;
+    text-align: left;
+    top: 139px;
+    width: 335px;
+    padding-top:65px;
+    text-align: center;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.draggable_container .ui-draggable  {
+
+    display:inline-block;
+
+    height: 52px;    
+    width: 163px;
+    cursor: move;
+
+}
+.draggable_container .ui-draggable  .name{
+    font-size: 26px;
+    line-height: 50px;
+
+    margin-bottom: 0px;
+    padding: 5px;
+    text-align: center;
+
+    margin:0 auto;
+}
+
+.ex9_box {
+    bottom: 287px;
+    display: block;
+    height: 322px;
+    position: absolute;
+    right: 5px;
+    width: 534px
+}
+.ex1_vid {
+    bottom: 47px;
+    display: block;
+    height: 51px;
+    left: 315px;
+    position: absolute;
+    width: 129px;
+
+}
+.p1{
+    bottom: 47px;
+    left: 357px;
+    position: absolute;
+}
+.p1 .item_ch {
+    left: -243px;
+    top: -172px;
+    font-size:26px;
+    line-height: 38px;
+    color: #000;
+    font-weight: normal;
+}
+.p1 .item_ch  p,.p2 .item_ch  p,.p3 .item_ch  p,.p4 .item_ch  p{
+    padding:10px 5px 0;
+}
+.ex2_vid_pm{
+    bottom: 53px;
+    display: block;
+    height: 51px;
+    left: 37px;
+    position: absolute;
+    width: 129px;
+}
+.ex2_vid {
+    bottom: 47px;
+    display: block;
+    height: 51px;
+    left: 594px;
+    position: absolute;
+    width: 129px;
+
+}
+.p2 .item_ch {
+    bottom:249px;
+    right:-32px;
+    font-size:26px;
+    line-height: 38px;
+    color: #000;
+    font-weight: normal;
+}
+.p2{
+    bottom: 47px;      
+    left: 637px;
+    position: absolute;
+}
+.ex3_vid {
+    bottom: 47px;
+    display: block;
+    height: 51px;
+    left: 412px;
+    position: absolute;
+    width: 129px;
+
+}
+.p3{
+    bottom: 47px;      
+    left: 452px;
+    position: absolute;
+}
+.p3 .item_ch {
+    bottom: 298px;
+    right: 95px;
+    font-size:26px;
+    line-height: 38px;
+    color: #000;
+    font-weight: normal;
+}
+.ex4_vid {
+    bottom: 47px;
+    display: block;
+    height: 51px;
+    left: 499px;
+    position: absolute;
+    width: 129px;
+
+}
+.p4{
+    bottom: 47px;      
+    left: 541px;
+    position: absolute;
+}
+.p4 .item_ch{right: -47px;
+             top: -145px;
+             font-size:26px;
+             line-height: 38px;
+             color: #000;
+             font-weight: normal;
+}
+.dictionar {
+    display: block;
+    height: 75px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 534px;
+}
+.game_frame .elements_data  {
+    text-align: center;
+    float:left;
+    width:33.33333%;
+}
+.game_frame .elements_data  .sunet{
+    display:inline-block;
+    vertical-align: middle;
+    background: url('../../../../assets/images/sound.jpg') no-repeat center center;
+    width:40px;
+    height:38px;
+    background-size: 40px 38px;
+
+}
+.game_frame .elements_data  .name_tag{
+    display:inline-block;
+    vertical-align: middle;
+    border:3px solid #fca321;
+    color:#000000;
+    height: 33px;
+    line-height: 33px;
+    font-size:22px;
+    text-align: center;
+}
+
+.game_frame .elements_data .img_element {
+    height: 170px;
+
+}
+#dictionar .gm_elem{
+    display:block;
+}
+.karaoke_block {
+    width:263px;
+    height:446px;
+    position:absolute;
+    right:10px;
+    top:25px;
+
+    background: url("../images/game/karaoke.png") no-repeat  right top;
+    background-size:contain;
+}
+
+#ex1_place6 {
+    left: 257px;
+    position: absolute;
+    top: 48px;
+}
+@media screen and (max-width: 115px) {
+    /*game window start*/
+    .droppable_container {
+        height: 404px;
+    }
+    .draggable_container {
+        box-sizing: border-box;
+        height: 192px;
+        left: 281px;
+        padding-top: 0;
+        position: absolute;
+        text-align: center;
+        top: 100px;
+        width: 257px;
+    }
+    .draggable_container .ui-draggable .name{
+        line-height: 50px;
+    }
+    .game-options{
+        height: 93px;
+        bottom:0px;
+    }
+    .droppable_container {
+        background-size: contain;
+    }
+    #dictionar.game_frame .elements_data .img_element {
+        height: 129px;
+    }
+    /*end*/
+    .ex9_box {
+        bottom: 282px;
+        display: block;
+        height: 199px;
+        position: absolute;
+        right: 5px;
+        width: 410px;
+    }
+    .dictionar {
+        display: block;
+        height: 59px;
+        position: absolute;
+        right: 5px;
+        top: 0;
+        width: 412px;
+    } 
+    .el1{
+        top:315px;
+    }
+    .el2{
+        top:325px;
+    }
+    .el3{
+        top:107px;
+    }
+
+    .ex2_box_prezentare {
+        height: 210px;
+        right: 23px;
+        top: 255px;
+        width: 385px;
+    }
+    .ex6 {
+        display: block;
+        height: 117px;
+        position: absolute;
+        right: 129px;
+        top: 289px;
+        width: 286px;
+    }
+    .ex4_box_arbore {
+        height: 40px;
+        right: 15px;
+        top: 25px;
+        width: 75px;
+    }
+    .ex5_box_retine {
+        height: 18px;
+        right: 110px;
+        top: 220px;
+        width: 275px;
+    }
+}
+
+@media screen and (max-width: 1366px){ 
+	
+	.draggable_container {
+		left: 294px;
+		top: 92px;
+		width: 330px;
+	}
+
+	.el3 {
+		right: 64px;
+		top: 113px;
+	}
+	
+	.el1 {
+		right: 254px;
+		top: 365px;
+	}
+	
+	.el2 {
+		right: 654px;
+		top: 365px;
+	}
+	
+	.el4 {
+		right: 231px;
+		top: 26px;
+	}
+}
+@media screen and (max-width: 1115px) { 
+	
+.draggable_container {
+    left: 271px;
+    padding-top: 0;
+    top: 83px;
+    width: 276px;
+}
+
+	.el3 {
+		right: 64px;
+		top: 113px;
+	}
+	
+	.el1 {
+	    right: 345px;
+    top: 308px;
+	}
+	
+	.el2 {
+		right: 654px;
+		top: 318px;
+	}
+	
+	.el4 {
+		right: 231px;
+		top: 26px;
+	}
+}
+
+

@@ -1,0 +1,225 @@
+#a_anim {
+    background-image: url("../images/a_anim.png");
+    height: 34px;
+    left: 6px;
+    position: absolute;
+    top: 13px;
+    width: 49px;
+}
+.small-a-holder, .p1t-holder, .big-a-holder, .p2t-holder {
+    display: inline-block;
+}
+.small-a-holder, .big-a-holder {
+    width: 125px;
+}
+.p1t-holder, .p2t-holder {
+    width: 250px;
+    margin-bottom: 5px;
+}
+.p1t-holder img, .p2t-holder img{
+    width:250px;
+    height:180px;
+}
+.p2t-holder {
+    margin-bottom: 27px;
+}
+
+.p1r1-holder {
+    margin-top: 5px;
+}
+.p1r2-texts{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p1r2-texts span {
+    text-align: center;
+    display: inline-block;
+    min-width: 40px;
+}
+.p1r21 {
+    margin-right: 41px;
+}
+.p1r22 {
+    margin-right: 41px;
+}
+.p1r23 {
+    margin-right: 40px;
+}
+.p1r24 {
+    margin-right: 41px;
+}
+.p2r1-holder {
+    margin-bottom: 9px;
+}
+
+.p2r2-holder {
+    margin-bottom: 19px;
+}
+.footer_text {
+    border-top: 1px solid #BBD03B;
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 9px;
+    max-width: 375px;
+    margin-top: 10px;
+    padding-top:5px;
+}
+.footer_important {
+    color: #FF0000;
+}
+
+
+.response{
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.pag_left {
+    background-image: url("../images/Pg_42.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_43.jpg");
+    background-position: right top;
+}
+
+.ex2_box_desparte {
+    display: block;
+    height: 80px;
+    position: absolute;
+    right: 35px;
+    top: 410px;
+    width: 485px;
+}
+.ex2_box_retine {
+    display: block;
+    height:150px;
+    position: absolute;
+    right: 20px;
+    top:365px;
+    width: 100px;
+}
+.ex2_vid {
+    bottom: 589px;
+    display: block;
+    height: 43px;
+    left: 40px;
+    position: absolute;
+    width: 153px;
+} 
+.video_cta {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.video10 { 
+    left: 165px;
+    top: 65px;
+}
+
+
+   
+    
+/***********************************/
+/*static defaul block*/
+/************************************/
+.ex2_vid{
+    bottom: 601px;
+    display: block;
+    height: 51px;
+    left: 210px;
+    position: absolute;
+    width: 129px;
+    }
+.pbox_prezentare {
+    display: block;
+    height: 43px;
+    left: 22px;
+    position: absolute;
+    top: 61px;
+    width: 176px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p42_43.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e3_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/p42_43.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+
+#ex3_place1 {
+    left: 213px;
+    position: absolute;
+    top: 20px;
+}
+#ex3_place2 {
+    left: 436px;
+    position: absolute;
+    top: 20px;
+}
+#ex3_place3 {
+    left: 678px;
+    position: absolute;
+    top:20px
+}
+#ex3_place4 {
+    left: 893px;
+    position: absolute;
+    top: 45px
+}
+#ex3_place5 {
+   left: 213px;
+    position: absolute;
+    top: 254px;
+}
+#ex3_place6 {
+    left: 436px;
+    position: absolute;
+     top: 282px;
+}
+#ex3_place7 {
+    left: 678px;
+    position: absolute;
+     top: 311px;
+}
+#ex3_place8 {
+    left: 893px;
+    position: absolute;
+     top: 254px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+
+@media screen and (max-width: 115px) {
+ 
+    .ex2_box_desparte {
+        height: 50px;
+        right: 25px;
+        top: 320px;
+        width: 385px;
+    }
+    .ex2_box_retine {
+        height: 110px;
+        right: 15px;
+        top: 280px;
+        width: 75px;
+    }
+}

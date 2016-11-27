@@ -1,0 +1,404 @@
+
+.pag_left {
+    background-image: url("../images/Pg_14.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_15.jpg");
+    background-position: right top;
+}
+
+/*start static*/
+
+.p14_ex1_box_prezentare {
+    display: block;
+    height: 526px;
+    position: absolute;
+    right: 5px;
+    top: 86px;
+    width: 535px;
+}
+.p15_ex2_box_prezentare {
+    display: block;
+    height: 388px;
+    position: absolute;
+    right: 5px;
+    top: 65px;
+    width: 531px;
+}
+
+
+#static_ex .placeholder {
+    padding:0px;
+}
+#static_ex .gm_elem {
+    display:block;
+}
+.clicl_elem  {
+    cursor:pointer;
+}
+.number_hook {
+    display:block;
+    height: 80px;
+    width:80px;
+    font-size:50px;
+    line-height: 80px;
+    color:#ffffff;
+    color: #FFFFFF;
+    display: block;
+    font-size: 50px;
+    height: 85px;
+    line-height: 96px;
+    width: 104px;
+    text-align: center;
+    text-shadow: -3px 0 0 #ff7d03, 0 -1px 0 #ff7d03, 0 1px 0 #ff7d03, -1px 0 0 #ff7d03;
+}
+.bk {
+    background:url('../images/game/12.jpg') no-repeat center center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+}
+.img1 {
+
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background-size: contain;  
+    background:url('../images/game/12_cal.png') no-repeat center center;
+
+}
+.img2 {
+
+    position:absolute;
+    right:0px;
+    top:0px;
+
+    background:url('../images/game/12_cutzu.png') no-repeat center center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+
+}
+.img3 {
+
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;            
+
+    background:url('../images/game/12_oaie.png') no-repeat center center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+
+}
+.img4 {
+    position:absolute;
+    right:0px;
+    top:0px;
+
+    background:url('../images/game/12_pisi.png') no-repeat center center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+
+
+
+}
+.points1
+{
+    top: 20px;
+    left: 355px;
+    position: absolute;
+}
+.points2
+{
+    top: 20px;
+    left: 455px;
+    position: absolute;
+}
+.points3
+{
+    top: 20px;
+    left: 575px;
+    position: absolute;
+}
+.points4
+{
+    top: 20px;
+    left: 725px;
+    position: absolute;
+}
+.text1
+{
+    top: 100px;
+    left: 280px;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text2
+{
+    top: 100px;
+    left: 400px;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text3
+{
+    top: 100px;
+    left: 520px;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text4
+{
+    top: 100px;
+    left: 655px;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text5
+{
+    top: 495px;
+    left: 315px;
+    position: absolute;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text6
+{
+    top: 450px;
+    left: 385px;
+    position: absolute;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text7
+{
+    top: 460px;
+    left: 585px;
+    position: absolute;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text8
+{
+    top: 495px;
+    left: 650px;
+    position: absolute;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sound1
+{
+    top: 95px;
+    left: 325px;
+    position: absolute;
+}
+.sound2
+{
+    top: 95px;
+    left: 455px;
+    position: absolute;
+}
+.sound3
+{
+    top: 95px;
+    left: 570px;
+    position: absolute;
+}
+.sound4
+{
+    top: 95px;
+    left: 690px;
+    position: absolute;
+}
+.sound5
+{
+    top: 485px;
+    left: 365px;
+    position: absolute;
+}
+.sound6
+{
+    top: 460px;
+    left: 430px;
+    position: absolute;
+}
+.sound7
+{
+    top: 485px;
+    left: 585px;
+    position: absolute;
+}
+.sound8
+{
+    top: 490px;
+    left: 680px;
+    position: absolute;
+}
+
+.item_ch {
+    display:none;
+}
+
+/*static end*/
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+#static_ex1 .gm_elem{
+    display:block;
+}
+
+#static_ex1 .bk {
+    background:url('../images/game/pg15_ex2.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e2_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+    background-size: contain;  
+    background:url('../images/game/pg15_ex2_r1.png') no-repeat top center;
+}
+#e2_img2 {
+
+    position:absolute;
+    right:0px;
+    top:0px;
+    background:url('../images/game/pg15_ex2_r2.png') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+}
+#e2_img3 {
+
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;            
+    background:url('../images/game/pg15_ex2_r3.png') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+}
+#e2_img4 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    background:url('../images/game/pg15_ex2_r4.png') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+}
+
+
+#ex2_place1 {
+    position:absolute;
+    top:0px;
+    left:75px;
+}
+#ex2_place2 {
+    position:absolute;
+    top:0px;
+    right:390px;
+}
+#ex2_place3 {
+    position:absolute;
+    bottom:240px;
+    left:75px;
+}
+#ex2_place4 {
+    position:absolute;
+    bottom:240px;
+    right:390px;
+}
+/**********************************/
+/*end static default*/
+/**********************************/
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p15_ex3_box_prezentare {
+    display: block;
+    height: 179px;
+    position: absolute;
+    right: 5px;
+    top: 461px;
+    width: 531px;
+}
+
+#static_ex2 .gm_elem{
+    display:block;
+}
+
+#static_ex2 .bk {
+    background:url('../images/game/p15_e3.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e3_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/p15_e3_r1.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex3_place1 {
+    position:absolute;
+    top:0px;
+    left:75px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+@media screen and (max-width: 115px) {
+    .game_frame .elements_data .img_element {
+        height: 100px;
+    }
+
+    .ex3_box_activitati {
+        height: 142px;
+        right: 26px;
+        top: 322px;
+        width: 385px;
+    }
+    .ex4_box_coloreaza {
+        height: 108px;
+        right: 105px;
+        top: 26px;
+        width: 295px;
+    }
+}

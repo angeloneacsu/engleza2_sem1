@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="ro">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Engleza clasa a-II-a</title>
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link type="text/css" rel="stylesheet" href="assets/css/normalize.css"/>
+        <link type="text/css" rel="stylesheet" href="assets/css/jquery.fancybox.css"/>
+        <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+        <link type="text/css" rel="stylesheet" href="assets/css/main.css"/>
+
+        <script type="text/javascript" src="assets/js/lib/jquery.min.1.10.2.js"></script>
+        <script type="text/javascript" src="assets/js/lib/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/lib/jquery.mobile.custom.min.js"></script>
+        <script type="text/javascript" src="assets/js/lib/modernizr-latest.js"></script>
+        <!-- turn.js files -->
+        <script type="text/javascript" src="assets/js/lib/jquery.fittext.js"></script>
+        <script type="text/javascript" src="assets/js/lib/jquery.spritely-0.6.js"></script>
+        <script type="text/javascript" src="assets/js/lib/jquery.fancybox.pack.js"></script>
+
+
+
+
+        <!--storage-->
+        <link href="assets/css/jquery.dataTables.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/jquery.dataTables_themeroller.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/chosen.min.css" rel="stylesheet" type="text/css">
+        <!--<link href="assets/css/dataTables.bootstrap.css" rel="stylesheet" type="text/css">-->
+        <!--<link href="assets/css/jquery-ui.css" rel="stylesheet" type="text/css">-->
+        <script type="text/javascript" src="assets/js/lib/jquery.dataTables.js"></script>
+        <script type="text/javascript" src="assets/js/lib/chosen.jquery.min.js"></script>
+        <!--<script type="text/javascript" src="assets/js/lib/dataTables.bootstrap.js"></script>-->
+        <!--        <script type="text/javascript" src="assets/js/lib/jquery.cookie.js"></script> 
+                <script type="text/javascript" src="assets/js/lib/MyLocalStorage.js"></script> 
+                <script type="text/javascript" src="assets/js/lib/MySessionStorage.js"></script> 
+                <script type="text/javascript" src="assets/js/lib/jquery-ui-1.10.4.min.js"></script>-->
+        <!--storage-->
+
+        <!--local storage localStorageDB 2.1-->
+        <script type="text/javascript" src="assets/js/lib/jquery.cookie.js"></script>
+        <script type="text/javascript" src="assets/js/lib/localstoragedb.min.custom.js"></script>
+        <!--<script type="text/javascript" src="assets/js/lib/localstoragedb.min.js"></script>-->
+        <script type="text/javascript" src="assets/js/generaldata.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+
+        <!--[if lte IE 8]>
+        <script type="text/javascript" src="assets/js/lib/PIE_IE678.js"></script>
+        <![endif]-->
+        <!--[if IE 9]>
+        <script type="text/javascript" src="assets/js/lib/PIE_IE9.js"></script>
+        <![endif]-->
+
+
+        <!-- audio player  -->
+        <link rel="stylesheet" href="assets/player/mediaelementplayer.min.css" />
+        <script src="assets/player/mediaelement-and-player.min.js"></script>
+        <!-- end -->
+
+    </head>
+    <body class='clearfix'>
+        <!--<div class="nav">
+                <div class="nav-container clearfix">
+                        <div class="zoom-controls fl animate">
+                                <div class="zoom-out fl"></div>
+                                <div class="zoom-lvl">
+                                        ----
+                                </div>
+                                <div class="zoom-in fr"></div>
+                        </div>
+                        <div class="page-nav animate">
+                                <div class="page-nav-container clearfix">
+                                        <div class="first-page"></div>
+                                        <div class="previous-page small-arrow"></div>
+                                        <div class="go-to-page">
+                                                <div class="mergi-la-pagina">
+                                                        Mergi la pagina
+                                                </div>
+                                                <div class="go-to-no">
+                                                        <input type="text" maxlength="2" class="go-to-input">
+                                                        <span class="total-no-of-pages">/4</span>
+                                                </div>
+                                        </div>
+                                        <div class="next-page small-arrow"></div>
+                                        <div class="last-page"></div>
+                                </div>
+                        </div>
+                        <div class="right-menu fr">
+                                <a href="cuprins.html" class="cuprins fl">Cuprins</a>
+                                <a href="#" class="portofoliu fl">Portofoliu</a>
+                                <a href="#" class="rezultate fl">Rezultate</a>
+                        </div>
+                </div>
+        </div>-->
+
+        <div class="nav">
+            <div class="nav-container clearfix">
+                <div class="zoom-controls fl">
+                    <div class="zoom-out "></div><div class="zoom-lvl"><span class=" zoom_itm z1"></span><span class=" zoom_itm z2"></span><span class="zoom_itm z3"></span><span class="zoom_itm z4"></span><span class="zoom_itm z5"></span><span class="zoom_itm z6"></span><span class="zoom_itm z7"></span></div><div class="zoom-in "></div>
+                </div>
+                <div class="page-nav">
+                    <div class="page-nav-container clearfix">
+                        <a href="index.html" class="first-page"></a>
+                        <a href="index.html" class="previous-page small-arrow"></a>
+                        <div class="go-to-page">
+                            <div class="mergi-la-pagina">
+                                Mergi la pagina:
+                            </div>
+                            <div class="go-to-no">
+                                <input type="text" maxlength="2" class="go-to-input">
+                                <span class="total-no-of-pages">/4</span>
+                            </div>
+                        </div>
+                        <a class="next-page small-arrow" href="pages/0-1/index.html"></a>
+                        <a class="last-page" href="pages/64-65/index.html"></a>
+                    </div>
+                </div>
+                <div class="right-menu fr">
+                    <a href="pages/2-3/index.html" class="cuprins fl">Cuprins</a>
+                    <!--<a href="#" class="portofoliu fl">Portofoliu</a>-->
+                    <a href="rezultate.html" class="rezultate fl">Rezultate</a>
+                    <a href="assets/pdf/Ajutor.pdf"  class="ajutor_general  fl"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper clearfix animate content_container" >
+
+
+
+            <div class="fila">
+                <h1>Rezultate</h1>
+                <div class="row-fluid rez_pad">
+                    <!-- block -->
+                    <div class="block">
+                        <div class="navbar navbar-inner block-header">
+
+                        </div>
+                        <div class="block-content collapse in">
+                            <div class="span12 cnt_holder" id='rezultate'>
+                                <table class="table table-striped" id="example">
+                                    <thead>
+                                        <tr>
+                                            <!--<th>#</th>-->
+                                            <th>Pagină</th>
+                                            <th>Exerciţiul</th>
+                                            <th>Răspuns</th>
+                                            <th>Stare</th>
+                                            <th>Utilizator</th>
+                                            <th>Dată</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                    </tbody>
+                                </table>
+
+                                <p class="clearfix"><br/><button class="btn  btn-primary " type="button" onclick="return resetlocalstorage();">Resetează baza de date</button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="book_logo_left " ></div>
+        <div class="book_logo_right " ></div>
+        <div class='cleardiv'></div>
+
+    </body>
+    <script>
+        function resetlocalstorage()
+        {
+            try {
+                localStorage.clear();
+
+                /*   if (BrowserDetect.browser == 'Firefox') {
+                 var cookies_ff = $.cookie();
+                 for (var cookie_ff in cookies_ff) {
+                 $.removeCookie(cookie_ff, {path: '/'});
+                 }
+                 } else {
+                 localStorage.clear();
+                 }
+                 */
+
+            } catch (e) {
+                var cookies = $.cookie();
+                for (var cookie in cookies) {
+                    $.removeCookie(cookie, {path: '/'});
+                }
+            }
+            location.reload();
+        }
+        $(document).ready(function() {
+            init_rezultate();
+        });
+        function init_rezultate() {
+            try {
+                var the_curr_user = lib.query(currentuser, {ID: '1'});
+                var id_curr_user = lib.query(user_table, {u: the_curr_user[0].u});
+                the_user = id_curr_user[0].u
+//            obj_data = lib.query(tableName);
+
+                obj_data = lib.query(tableName, function(row) {
+                    if (row.u == id_curr_user[0].ID) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                });
+
+                var obj_size = $.keyCount(obj_data);
+                var status;
+
+                $.each(obj_data, function(index, value) {
+
+                    if (value.s == 'w') {
+                        status = 'incorect';
+                    } else {
+                        status = 'corect';
+                    }
+
+                    var template = '<tr>';
+//                template += '<td>' + value.ID + '</td>';
+                    template += '<td>' + value.p + '</td>';
+                    template += '<td>' + value.e + '</td>';
+                    template += '<td>' + value.r + '</td>';
+                    template += '<td>' + status + '</td>';
+                    template += '<td>' + the_user + '</td>';
+                  template += '<td>' + value.d + '</td>';
+                    template += '</tr';
+                    $('#rezultate tbody').append(template);
+
+                });
+                var table = $('#example').DataTable({
+                    "iDisplayLength": 10,
+                    "pagingType": "full_numbers",
+                    "oLanguage": {
+                        "oPaginate": {
+                            "sFirst": "Prima pagină",
+                            "sLast": "Ultima pagină",
+                            "sNext": "Pagina următoare",
+                            "sPrevious": "Pagina precedentă"
+                        },
+                        "sLengthMenu": "Afisează _MENU_   înregistrari pe pagină",
+                        "sZeroRecords": "Niciun rezultat",
+                        "sInfo": "Pagina _PAGE_ din _PAGES_",
+                        "sInfoEmpty": "Nicio înregistrare",
+                        "sInfoFiltered": "(filtered de la _MAX_ total înregistrari)",
+                        "sSearch": "Caută: "
+                    },
+                "order": [[5, "desc"]]
+
+                });
+
+
+
+                $('.fila select').chosen({disable_search: true});
+            } catch (err) {
+
+            }
+        }
+        $.fn.dataTable.Api.register('column().data().sum()', function() {
+            return this.reduce(function(a, b) {
+                var x = parseFloat(a) || 0;
+                var y = parseFloat(b) || 0;
+                return x + y;
+            });
+        });
+
+
+        /* Init the table and fire off a call to get the hidden nodes. */
+
+    </script>
+
+</html>

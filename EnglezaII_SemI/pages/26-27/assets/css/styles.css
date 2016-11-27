@@ -1,0 +1,315 @@
+.pag_left {
+    background-image: url("../images/Pg_26.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_27.jpg");
+    background-position: right top;
+}
+
+.ex2_box_desparte {
+    display: block;
+    height: 100px;
+    position: absolute;
+    right: 25px;
+    top: 395px;
+    width: 490px;
+}
+.ex5_box_ghici {
+    display: block;
+    height: 120px;
+    position: absolute;
+    right: 20px;
+    top: 190px;
+    width: 100px;
+}
+.ex6 {
+    display: block;
+    height: 118px;
+    position: absolute;
+    right: 145px;
+    top: 307px;
+    width: 370px;
+}
+/*custom*/
+.game_frame .elements_data  {
+    margin-bottom: 35px;
+}
+.game_frame .elements_data br {
+    display:none;
+}
+.game_frame .elements_data .img_element {
+    height: 140px;
+    margin:0 15px 10px;
+}
+.game_frame .title {
+    padding: 15px 0 10px;
+}
+.elements_data {
+    margin-bottom: 15px;    
+}
+input.response{
+
+    /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+
+    color:#3698D3;
+    text-align:center;
+    font-size:18px;
+    line-height: 40px;
+    width:30px;
+    padding:4px;    
+    height: 30px;
+    margin:0 auto;
+    font-weight: normal;
+
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border:3px solid #3698d3;
+}
+input.response.c_true {
+    color:#8FC800;
+}
+input.response.c_false {
+    color:#CC0000;
+}
+.ex2_vid {
+    bottom: 574px;
+    display: block;
+    height: 50px;
+    left: 14px;
+    position: absolute;
+    width: 200px;
+}
+.video_cta {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+/*game click on corect css*/
+
+
+.game_frame .elements_data  {
+    margin-bottom:0px;
+}
+.game_frame .elements_data  {
+
+}
+.game_frame .elements_data .img_element{
+    height:120px;
+
+}
+.game_frame .elements_data .name {    
+    font-size:26px;
+    line-height: 28px;
+    font-weight: bold;
+    color:#3698d3;
+}
+/*.game_frame .elements_data br {
+    display:none;
+}*/
+
+/*custom input game selectable*/
+.game_frame .checkbox-holder div:first-child{
+    margin-top:10px;
+}
+.game_frame .checkbox-holder div {
+    font-size: 20px;
+    height: 26px;
+    line-height: 26px;
+    color:#3698d3;
+    display:block;
+    text-align: center;
+    margin-top:5px;
+    border:1px solid transparent;
+}
+.game_frame .checkbox-holder div.checked {
+    border:1px solid #ad1283;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.game_frame .checkbox-holder div.c_false{
+    border-color:#CC0000;
+}
+.game_frame .checkbox-holder div.c_true{
+    border-color:#8FC800;
+}
+.ex3{
+    display: block;
+    height: 346px;
+    position: absolute;
+    right: 4px;
+    top: 64px;
+    width: 534px;
+}
+#multiple_choice_select.game_frame .gm_elem{
+    display:block;
+    line-height: 0px;
+    font-size:0px;
+}
+#multiple_choice_select.game_frame .gm_elem .elements_data{
+    width:33.3%;
+}
+#multiple_choice_select.game_frame .elements_data .img_element{
+    height: 150px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder {
+    /*position:absolute;*/
+    bottom:20px;
+    width:100%;
+    left:0px;
+    text-align: center;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response {
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #000000;
+    display: block;
+    font-size: 28px;
+    height: 30px;
+    line-height: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.checked {
+    color:#009ec3;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_false {
+    color:#cc0000;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_true {
+    color:#61c419;
+}
+
+.game_frame .elements_data.c_true,.game_frame .elements_data.c_false{
+    background: none;
+
+}
+
+.game_frame .elements_data .sunet {
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../../../../assets/images/sound.jpg') no-repeat center center;
+    width: 40px;
+    height: 38px;
+    background-size: 40px 38px;
+    cursor: pointer;
+    margin-top: -4px;
+}
+/*end click on corect css*/
+
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p26_ex1_box_prezentare {
+    display: block;
+    height: 504px;
+    position: absolute;
+    right: 6px;
+    top: 131px;
+    width: 534px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p26_e1.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e1_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text1.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text2.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img3 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text3.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex1_place1 {
+    left: -5px;
+    position: absolute;
+    top: 50px;
+}
+#ex1_place2 {
+    left: 354px;
+    position: absolute;
+    top: 30px;
+}
+#ex1_place3 {
+    left: 725px;
+    position: absolute;
+    top: 220px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+.karaoke_block {
+    width:263px;
+    height:446px;
+    position:absolute;
+    right:10px;
+    top:25px;
+
+    background: url("../images/game/k.png") no-repeat  right top;
+    background-size:contain;
+}
+@media screen and (max-width: 115px) {
+    .game_frame .elements_data  {
+        margin-bottom: 15px;
+    }
+    .game_frame .elements_data .img_element {
+        height: 90px;
+        margin:0 15px 10px;
+    }
+    .ex2_box_desparte {
+        height: 71px;
+        right: 20px;
+        top: 306px;
+        width: 385px;
+    }
+    .ex5_box_ghici {
+        height: 90px;
+        right: 15px;
+        top: 147px;
+        width: 76px;
+    }
+    .ex6 {
+        display: block;
+        height: 93px;
+        position: absolute;
+        right: 110px;
+        top: 239px;
+        width: 291px;
+    }
+}

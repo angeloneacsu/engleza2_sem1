@@ -1,0 +1,708 @@
+.pag_left {
+    background-image: url("../images/Pg_06.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_07.jpg");
+    background-position: right top;
+}
+.img_pop_hover {
+    display:block;
+    position:absolute;
+    right:62px; 
+    top:100px;
+    width:347px; 
+    height: 203px;
+}
+.gm_container {
+    min-height: 150px;
+}
+.pg8-9{
+    position:absolute;
+    top:137px;
+    right: 60px;
+    width: 410px;
+    height: 10px;
+}
+
+.pg10-11{
+    position:absolute;
+    top:150px;
+    right: 60px;
+    width: 410px;
+    height: 22px;
+}
+
+.pg12-13{
+    position:absolute;
+    top:175px;
+    right: 60px;
+    width: 410px;
+    height: 22px;
+}
+
+.pg14-15{
+    position:absolute;
+    top:200px;
+    right: 60px;
+    width: 410px;
+    height: 22px;
+}
+.pg16-17{
+    position:absolute;
+    top:225px;
+    right: 60px;
+    width: 410px;
+    height: 22px;
+}
+
+.pg18-19{
+    position:absolute;
+    top:250px;
+    right: 60px;
+    width: 410px;
+    height: 15px;
+}
+
+.pg20-21{
+    position:absolute;
+    top:300px;
+    right: 60px;
+    width: 410px;
+    height: 25px;
+}
+
+.pg22-23{
+    position:absolute;
+    top:328px;
+    right: 60px;
+    width: 410px;
+    height: 25px;
+}
+.pg24{
+    position:absolute;
+    top:360px;
+    right: 60px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg25{
+    position:absolute;
+    top:375px;
+    right: 60px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg26-27{
+    position:absolute;
+    top:425px;
+    right: 60px;
+    width: 415px;
+    height: 28px;
+}
+
+.pg28-29{
+    position:absolute;
+    top:455px;
+    right: 60px;
+    width: 415px;
+    height: 28px;
+}
+
+.pg30-31{
+    position:absolute;
+    top:480px;
+    right: 60px;
+    width: 415px;
+    height: 28px;
+}
+
+.pg32{
+    position:absolute;
+    top:515px;
+    right: 60px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg33{
+    position:absolute;
+    top:528px;
+    right: 60px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg34-35{
+    position:absolute;
+    top:583px;
+    right: 60px;
+    width: 415px;
+    height: 28px;
+}
+
+.pg36-37{
+    position:absolute;
+    top:612px;
+    right: 60px;
+    width: 415px;
+    height: 28px;
+}
+
+.pg38-39{
+    position:absolute;
+    top:55px;
+    right: 45px;
+    width: 415px;
+    height: 28px;
+}
+
+.pg40{
+    position:absolute;
+    top:85px;
+    right: 45px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg41{
+    position:absolute;
+    top:100px;
+    right: 45px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg42-43{
+    position:absolute;
+    top:148px;
+    right: 45px;
+    width: 415px;
+    height: 25px;
+}
+
+.pg44-45{
+    position:absolute;
+    top:175px;
+    right: 45px;
+    width: 415px;
+    height: 25px;
+}
+
+.pg46-47{
+    position:absolute;
+    top:200px;
+    right: 45px;
+    width: 415px;
+    height: 25px;
+}
+
+.pg48{
+    position:absolute;
+    top:230px;
+    right: 45px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg49{
+    position:absolute;
+    top:243px;
+    right: 45px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg50-51{
+    position:absolute;
+    top:292px;
+    right: 45px;
+    width: 415px;
+    height: 25px;
+}
+
+.pg52-53{
+    position:absolute;
+    top:317px;
+    right: 45px;
+    width: 415px;
+    height: 25px;
+}
+
+.pg54-55{
+    position:absolute;
+    top:342px;
+    right: 45px;
+    width: 415px;
+    height: 25px;
+}
+
+.pg56{
+    position:absolute;
+    top:370px;
+    right: 45px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg57{
+    position:absolute;
+    top:385px;
+    right: 45px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg58-59{
+    position:absolute;
+    top:433px;
+    right: 45px;
+    width: 415px;
+    height: 25px;
+}
+
+.pg60-61{
+    position:absolute;
+    top:458px;
+    right: 45px;
+    width: 415px;
+    height: 25px;
+}
+
+.pg62-63{
+    position:absolute;
+    top:483px;
+    right: 45px;
+    width: 415px;
+    height: 25px;
+}
+
+.pg64{
+    position:absolute;
+    top:510px;
+    right: 45px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg65{
+    position:absolute;
+    top:525px;
+    right: 45px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg66{
+    position:absolute;
+    top:540px;
+    right: 45px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg67{
+    position:absolute;
+    top:553px;
+    right: 45px;
+    width: 425px;
+    height: 15px;
+}
+
+.pg68{
+    position:absolute;
+    top:570px;
+    right: 45px;
+    width: 425px;
+    height: 13px;
+}
+
+.pg69{
+    position:absolute;
+    top:580px;
+    right: 45px;
+    width: 425px;
+    height: 13px;
+}
+
+.pg70{
+    position:absolute;
+    top:595px;
+    right: 45px;
+    width: 425px;
+    height: 13px;
+}
+
+.pg71{
+    position:absolute;
+    top:610px;
+    right: 45px;
+    width: 425px;
+    height: 13px;
+}
+
+.pg72{
+    position:absolute;
+    top:625px;
+    right: 45px;
+    width: 425px;
+    height: 13px;
+}
+.video10 { 
+    top: 35px; 
+    left: 494px;
+}
+.ex2_vid {
+    bottom: 630px;
+    display: block;
+    height: 37px;
+    left: 490px;
+    position: absolute;
+    width: 30px;
+}
+@media screen and (max-width: 115px) {
+    .gm_container {
+        min-height: 110px;
+    }
+    .img_pop_hover {
+        height: 147px;
+        right: 52px;
+        top: 80px;
+        width: 270px;
+    }
+    .pg8-9{
+    position:absolute;
+    top:105px;
+    right: 50px;
+    width: 325px;
+    height: 10px;
+}
+
+.pg10-11{
+    position:absolute;
+    top:115px;
+    right: 50px;
+    width: 325px;
+    height: 18px;
+}
+
+.pg12-13{
+    position:absolute;
+    top:135px;
+    right: 50px;
+    width: 325px;
+    height: 18px;
+}
+
+.pg14-15{
+    position:absolute;
+    top:155px;
+    right: 50px;
+    width: 325px;
+    height: 18px;
+}
+.pg16-17{
+    position:absolute;
+    top:175px;
+    right: 50px;
+    width: 325px;
+    height: 18px;
+}
+
+.pg18-19{
+    position:absolute;
+    top:195px;
+    right: 50px;
+    width: 325px;
+    height: 15px;
+}
+
+.pg20-21{
+    position:absolute;
+    top:232px;
+    right: 50px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg22-23{
+    position:absolute;
+    top:253px;
+    right: 50px;
+    width: 325px;
+    height: 20px;
+}
+.pg24{
+    position:absolute;
+    top:278px;
+    right: 50px;
+    width: 335px;
+    height: 14px;
+}
+
+.pg25{
+    position:absolute;
+    top:290px;
+    right: 50px;
+    width: 335px;
+    height: 12px;
+}
+
+.pg26-27{
+    position:absolute;
+    top:332px;
+    right: 50px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg28-29{
+    position:absolute;
+    top:352px;
+    right: 50px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg30-31{
+    position:absolute;
+    top:374px;
+    right: 50px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg32{
+    position:absolute;
+    top:398px;
+    right: 50px;
+    width: 335px;
+    height: 12px;
+}
+
+.pg33{
+    position:absolute;
+    top:410px;
+    right: 50px;
+    width: 335px;
+    height: 12px;
+}
+
+.pg34-35{
+    position:absolute;
+    top:453px;
+    right: 50px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg36-37{
+    position:absolute;
+    top:475px;
+    right: 50px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg38-39{
+    position:absolute;
+    top:43px;
+    right: 35px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg40{
+    position:absolute;
+    top:65px;
+    right: 35px;
+    width: 335px;
+    height: 12px;
+}
+
+.pg41{
+    position:absolute;
+    top:77px;
+    right: 35px;
+    width: 335px;
+    height: 12px;
+}
+
+.pg42-43{
+    position:absolute;
+    top:115px;
+    right: 35px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg44-45{
+    position:absolute;
+    top:135px;
+    right: 35px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg46-47{
+    position:absolute;
+    top:155px;
+    right: 35px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg48{
+    position:absolute;
+    top:177px;
+    right: 35px;
+    width: 335px;
+    height: 12px;
+}
+
+.pg49{
+    position:absolute;
+    top:188px;
+    right: 35px;
+    width: 335px;
+    height: 12px;
+}
+
+.pg50-51{
+    position:absolute;
+    top:225px;
+    right: 35px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg52-53{
+    position:absolute;
+    top:245px;
+    right: 35px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg54-55{
+    position:absolute;
+    top:265px;
+    right: 35px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg56{
+    position:absolute;
+    top:285px;
+    right: 35px;
+    width: 335px;
+    height: 12px;
+}
+
+.pg57{
+    position:absolute;
+    top:298px;
+    right: 35px;
+    width: 335px;
+    height: 12px;
+}
+
+.pg58-59{
+    position:absolute;
+    top:336px;
+    right: 35px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg60-61{
+    position:absolute;
+    top:356px;
+    right: 35px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg62-63{
+    position:absolute;
+    top:376px;
+    right: 35px;
+    width: 325px;
+    height: 20px;
+}
+
+.pg64{
+    position:absolute;
+    top:396px;
+    right: 35px;
+    width: 335px;
+    height: 11px;
+}
+
+.pg65{
+    position:absolute;
+    top:406px;
+    right: 35px;
+    width: 335px;
+    height: 11px;
+}
+
+.pg66{
+    position:absolute;
+    top:417px;
+    right: 35px;
+    width: 335px;
+    height: 11px;
+}
+
+.pg67{
+    position:absolute;
+    top:427px;
+    right: 35px;
+    width: 335px;
+    height: 11px;
+}
+
+.pg68{
+    position:absolute;
+    top:438px;
+    right: 35px;
+    width: 335px;
+    height: 11px;
+}
+
+.pg69{
+    position:absolute;
+    top:450px;
+    right: 35px;
+    width: 335px;
+    height: 11px;
+}
+
+.pg70{
+    position:absolute;
+    top:463px;
+    right: 35px;
+    width: 335px;
+    height: 11px;
+}
+
+.pg71{
+    position:absolute;
+    top:473px;
+    right: 35px;
+    width: 335px;
+    height: 11px;
+}
+
+.pg72{
+    position:absolute;
+    top:483px;
+    right: 35px;
+    width: 335px;
+    height: 14px;
+}
+}

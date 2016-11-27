@@ -1,0 +1,277 @@
+
+.pag_left {
+    background-image: url("../images/Pg_52.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_53.jpg");
+    background-position: right top;
+}
+.video52{
+    display:block;
+    position:absolute;
+    right:50px; 
+    top:155px;
+    width:350px;
+    height: 235px;
+}
+
+/*game click on corect css*/
+.p52_ex2_box_prezentare {
+    display: block;
+    height: 224px;
+    position: absolute;
+    right: 6px;
+    top: 435px;
+    width: 534px;
+}
+.game_frame .elements_data  {
+    margin-bottom:0px;
+}
+.game_frame .elements_data  {
+
+}
+.game_frame .elements_data .img_element{
+    height:110px;
+
+}
+.game_frame .elements_data .name {
+    font-size:22px;
+    line-height: 26px;
+    font-weight: bold;
+    color:#000000;
+}
+/*.game_frame .elements_data br {
+    display:none;
+}*/
+
+/*custom input game selectable*/
+.game_frame .checkbox-holder div:first-child{
+    margin-top:10px;
+}
+.game_frame .checkbox-holder div {
+    font-size: 20px;
+    height: 26px;
+    line-height: 26px;
+    color:#3698d3;
+    display:block;
+    text-align: center;
+    margin-top:5px;
+    border:1px solid transparent;
+}
+.game_frame .checkbox-holder div.checked {
+    border:1px solid #ad1283;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.game_frame .checkbox-holder div.c_false{
+    border-color:#CC0000;
+}
+.game_frame .checkbox-holder div.c_true{
+    border-color:#8FC800;
+}
+.ex3{
+    display: block;
+    height: 286px;
+    position: absolute;
+    right: 8px;
+    top: 102px;
+    width: 522px;
+}
+#multiple_choice_select.game_frame .gm_elem{
+    display:block;
+    line-height: 0px;
+    font-size:0px;
+}
+#multiple_choice_select.game_frame .gm_elem .elements_data{
+    width:33.3%;
+}
+#multiple_choice_select.game_frame .elements_data .img_element{
+    height: 110px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder {
+    /*position:absolute;*/
+    bottom:20px;
+    width:100%;
+    left:0px;
+    text-align: center;
+    font-size:0px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response {
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #000000;
+    display: inline-block;
+    font-size: 28px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    text-align: center;
+    width:50%;
+    	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.checked {
+    color:#009ec3;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_false {
+    color:#cc0000;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_true {
+    color:#61c419;
+}
+.game_frame .elements_data.c_true,.game_frame .elements_data.c_false{
+    background: none;
+
+}
+
+
+
+/*end click on corect css*/
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p52_ex1_box_prezentare {
+    display: block;
+    height: 344px;
+    position: absolute;
+    right: 7px;
+    top: 79px;
+    width: 532px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p52_e1.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e1_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/linii.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex1_place1 {
+    left: 75px;
+    position: absolute;
+    top: 84px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p53_ex3_box_prezentare {
+    display: block;
+    height: 297px;
+    position: absolute;
+    right: 4px;
+    top: 43px;
+    width: 532px;
+}
+
+#static_ex1 .gm_elem{
+    display:block;
+}
+
+#static_ex1 .bk {
+    background:url('../images/game/p53_e3.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e3_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/img1.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/img2.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img3 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/img3.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img4 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/img4.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex3_place1 {
+    left: 335px;
+    position: absolute;
+    top: 80px;;
+}
+#ex3_place2 {
+    left: 785px;
+    position: absolute;
+    top: 80px;
+}
+#ex3_place3 {
+    left: 335px;
+    position: absolute;
+    top: 300px;
+}
+#ex3_place4 {
+    left: 788px;
+    position: absolute;
+    top: 268px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+
+@media screen and (max-width: 115px) {
+    .video52{
+        display:block;
+        position:absolute;
+        right:50px; 
+        top:120px;
+        width:270px;
+        height: 180px;
+    }
+}

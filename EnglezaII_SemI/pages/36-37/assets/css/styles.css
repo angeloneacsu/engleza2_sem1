@@ -1,0 +1,361 @@
+.game_frame .elements_data {
+    margin-bottom: 30px;
+}
+.game_frame .elements_data .img_element {
+    height: 140px;
+}
+.pag_left {
+    background-image: url("../images/Pg_36.jpg");
+    background-position: left top;
+}
+.pag_right {
+    background-image: url("../images/Pg_37.jpg");
+    background-position: right top;
+}
+
+
+.ex2_box_desparte {
+    display: block;
+    height: 110px;
+    position: absolute;
+    right: 25px;
+    top: 387px;
+    width: 490px;
+}
+.ex9_box_cantati {
+    display: block;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    top: 195px;
+    width: 100px;
+}
+.ex7 {
+    display: block;
+    height: 74px;
+    min-height: 0;
+    position: absolute;
+    right: 144px;
+    top: 307px;
+    width: 370px;
+}
+.video36{
+    display:block;
+    position:absolute;
+    right:35px; 
+    top:155px;
+    width:375px;
+    height: 225px;
+}
+
+/*custom*/
+
+.game_frame .elements_data br {
+    display:none;
+}
+input.response{
+
+    /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+
+    color:#3698D3;
+    text-align:center;
+    font-size:18px;
+    line-height: 20px;
+    width:70%;
+    padding:3px;    
+    height: 20px;
+    margin:0 auto;
+    font-weight: normal;
+    background: #b4def8;
+    border: 3px solid #b4def8;
+
+}
+input.response.c_true {
+    color:#8FC800;
+}
+input.response.c_false {
+    color:#CC0000;
+}
+
+/*game click on corect css*/
+
+.game_frame .elements_data  {
+    margin-bottom:0px;
+}
+.game_frame .elements_data  {
+
+}
+.game_frame .elements_data .img_element{
+    height:120px;
+
+}
+.game_frame .elements_data .name {
+    font-size:26px;
+    line-height: 28px;
+    font-weight: bold;
+    color:#3698d3;
+}
+/*.game_frame .elements_data br {
+    display:none;
+}*/
+
+/*custom input game selectable*/
+.game_frame .checkbox-holder div:first-child{
+    margin-top:10px;
+}
+.game_frame .checkbox-holder div {
+    font-size: 20px;
+    height: 26px;
+    line-height: 26px;
+    color:#3698d3;
+    display:block;
+    text-align: center;
+    margin-top:5px;
+    border:1px solid transparent;
+}
+.game_frame .checkbox-holder div.checked {
+    border:1px solid #ad1283;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.game_frame .checkbox-holder div.c_false{
+    border-color:#CC0000;
+}
+.game_frame .checkbox-holder div.c_true{
+    border-color:#8FC800;
+}
+.ex3{
+    display: block;
+    height: 330px;
+    position: absolute;
+    right: 4px;
+    top: 53px;
+    width: 534px;
+}
+#multiple_choice_select.game_frame .gm_elem{
+    display:block;
+    line-height: 0px;
+    font-size:0px;
+}
+#multiple_choice_select.game_frame .gm_elem .elements_data{
+    width:33.3%;
+}
+#multiple_choice_select.game_frame .elements_data .img_element{
+    height: 160px;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder {
+    /*position:absolute;*/
+    bottom:20px;
+    width:100%;
+    left:0px;
+    text-align: center;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response {
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #000000;
+    display: block;
+    font-size: 28px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.checked {
+    color:#009ec3;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_false {
+    color:#cc0000;
+}
+#multiple_choice_select.game_frame .elements_data .checkbox-holder .response.c_true {
+    color:#61c419;
+}
+.game_frame .elements_data.c_true,.game_frame .elements_data.c_false{
+    background: none;
+
+}
+
+/*end click on corect css*/
+
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p36_ex1_box_prezentare {
+    display: block;
+    height: 571px;
+    position: absolute;
+    right: 6px;
+    top: 65px;
+    width: 534px;
+}
+
+#static_ex .gm_elem{
+    display:block;
+}
+
+#static_ex .bk {
+    background:url('../images/game/p36_e1.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e1_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text1.png') no-repeat top center;
+    background-size: contain; 
+}
+#e1_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/text2.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex1_place1 {
+    position:absolute;
+    top:205px;
+    left:105px;
+}
+#ex1_place2 {
+    left: 774px;
+    position: absolute;
+    top: 205px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+
+/***********************************/
+/*static defaul block*/
+/************************************/
+.p37_ex3_box_prezentare {
+    display: block;
+    height: 243px;
+    position: absolute;
+    right: 4px;
+    top: 393px;
+    width: 534px;
+}
+
+#static_ex1 .gm_elem{
+    display:block;
+}
+
+#static_ex1 .bk {
+    background:url('../images/game/p37_e3.jpg') no-repeat top center;
+    height: 530px;
+    width:100%;
+    background-size: contain;
+    position:relative;
+}
+#e3_img1 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/linie_galbena.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img2 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/linie_verde.png') no-repeat top center;
+    background-size: contain; 
+}
+#e3_img3 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height: 530px;
+    width:100%;      
+
+    background:url('../images/game/portocaliu.png') no-repeat top center;
+    background-size: contain; 
+}
+
+
+#ex3_place1 {
+    left: 60px;
+    position: absolute;
+    top: 353px;
+}
+#ex3_place2 {
+    left: 110px;
+    position: absolute;
+    top: 284px;
+}
+#ex3_place3 {
+    left: 63px;
+    position: absolute;
+    top: 209px;
+}
+#ex3_place4 {
+    left: 149px;
+    position: absolute;
+    top: 135px;
+}
+
+/**********************************/
+/*end static default*/
+/**********************************/
+
+
+
+
+@media screen and (max-width: 115px) {
+    .game_frame .elements_data {
+        margin-bottom: 15px;
+    }
+    .game_frame .elements_data .img_element {
+        height: 100px;
+    }
+    .ex2_box_desparte {
+        height: 77px;
+        right: 20px;
+        top: 301px;
+        width: 390px;
+    }
+    .ex9_box_cantati {
+        height: 55px;
+        right: 15px;
+        top: 150px;
+        width: 75px;
+    }
+    .ex7 {
+        display: block;
+        height: 57px;
+        min-height: 0;
+        position: absolute;
+        right: 111px;
+        top: 238px;
+        width: 289px;
+    }
+    .video36{
+        display:block;
+        position:absolute;
+        right:35px; 
+        top:120px;
+        width:290px;
+        height: 175px;
+    }
+}
